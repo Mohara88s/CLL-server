@@ -1,7 +1,7 @@
-const { Task } = require('./tasks')
+const { QTranscriptionTask } = require('./qTranscriptionTask')
 const { User } = require('./user')
 
 module.exports = {
-  Task,
+  QTranscriptionTask,
   User
 }

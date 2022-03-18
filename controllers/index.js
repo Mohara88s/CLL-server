@@ -1,9 +1,9 @@
-const tasks = require('./tasks')
+const qTranscriptionTasks = require('./qTranscriptionTasks')
 const auth = require('./auth')
 const users = require('./users')
 
 module.exports = {
-  tasks,
+  qTranscriptionTasks,
   auth,
   users,
 }

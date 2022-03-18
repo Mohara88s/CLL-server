@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose')
 const Joi = require('joi')
 
-const taskSchema = Schema({
+const qTranscriptionTaskSchema = Schema({
   eng: {
     type: String,
     required: [true, 'Set english version of task'],
@@ -16,7 +16,7 @@ const taskSchema = Schema({
   }
 }, { versionKey: false, timestamps: true })
 
-const Task = model('task', taskSchema)
+const QTranscriptionTask = model('q-transcription-task', qTranscriptionTaskSchema)
 
 const joiSchema = Joi.object({
   eng: Joi.string()
@@ -28,6 +28,6 @@ const joiSchema = Joi.object({
 })
 
 module.exports = {
-  Task,
+  QTranscriptionTask,
   joiSchema
 }
