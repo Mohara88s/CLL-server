@@ -1,0 +1,2642 @@
+[
+ {
+  "eng": "azure",
+  "qtrn": "aiqe",
+  "rus": "лазурь"
+ },
+ {
+  "eng": "Asmara",
+  "qtrn": "aiz'maare",
+  "rus": "Асмара"
+ },
+ {
+  "eng": "azimuth",
+  "qtrn": "aizimex",
+  "rus": "азимут"
+ },
+ {
+  "eng": "asbestos",
+  "qtrn": "aiz'beystos",
+  "rus": "асбест"
+ },
+ {
+  "eng": "asbestine",
+  "qtrn": "aiz'beystin",
+  "rus": "асбестовый"
+ },
+ {
+  "eng": "as",
+  "qtrn": "aiz, ez, z",
+  "rus": "как"
+ },
+ {
+  "eng": "avarice",
+  "qtrn": "aiveris",
+  "rus": "скупость"
+ },
+ {
+  "eng": "average statement",
+  "qtrn": "aiveridq,stejtment",
+  "rus": "диспаша"
+ },
+ {
+  "eng": "avalanche",
+  "qtrn": "aivelaansh",
+  "rus": "лавина"
+ },
+ {
+  "eng": "avenue",
+  "qtrn": "aivinjuu",
+  "rus": "проход"
+ },
+ {
+  "eng": "avidly",
+  "qtrn": "aividli",
+  "rus": "жадно"
+ },
+ {
+  "eng": "avid",
+  "qtrn": "aivid",
+  "rus": "жадный"
+ },
+ {
+  "eng": "average adjuster",
+  "qtrn": "aiv(e)ridqe,dqaste",
+  "rus": "диспашер"
+ },
+ {
+  "eng": "average",
+  "qtrn": "aiv(e)ridq",
+  "rus": "среднее число"
+ },
+ {
+  "eng": "attaboy",
+  "qtrn": "aite'boj",
+  "rus": "молодец!"
+ },
+ {
+  "eng": "attar",
+  "qtrn": "aite",
+  "rus": "эфирное масло"
+ },
+ {
+  "eng": "atonic",
+  "qtrn": "ai'tonik",
+  "rus": "безударный"
+ },
+ {
+  "eng": "atoll",
+  "qtrn": "aitol",
+  "rus": "атолл"
+ },
+ {
+  "eng": "atoxic",
+  "qtrn": "ai'toksik",
+  "rus": "нетоксичный"
+ },
+ {
+  "eng": "atmosphere",
+  "qtrn": "aitmesfie",
+  "rus": "атмосфера"
+ },
+ {
+  "eng": "Atlantean",
+  "qtrn": "aitlain'tyen",
+  "rus": "сильный, могучий"
+ },
+ {
+  "eng": "Atlantis",
+  "qtrn": "ait'laintis",
+  "rus": "Атлантида"
+ },
+ {
+  "eng": "Atlas Mountains",
+  "qtrn": "aitles'mauntinz",
+  "rus": "Атласские горы"
+ },
+ {
+  "eng": "Atlas",
+  "qtrn": "aitles",
+  "rus": "Атлант"
+ },
+ {
+  "eng": "athlete",
+  "qtrn": "aixlyt",
+  "rus": "спортсмен"
+ },
+ {
+  "eng": "athletics",
+  "qtrn": "aix'leytiks",
+  "rus": "атлетика"
+ },
+ {
+  "eng": "athletic",
+  "qtrn": "aix'leytik",
+  "rus": "атлетический"
+ },
+ {
+  "eng": "attitude",
+  "qtrn": "aititjuud",
+  "rus": "позиция"
+ },
+ {
+  "eng": "atticism",
+  "qtrn": "aitisizm",
+  "rus": "древнегреческое заимствование"
+ },
+ {
+  "eng": "Athens",
+  "qtrn": "aixinz",
+  "rus": "Афины"
+ },
+ {
+  "eng": "Attica",
+  "qtrn": "aitike",
+  "rus": "Аттика"
+ },
+ {
+  "eng": "Babylonia",
+  "qtrn": "baibi'lounie",
+  "rus": "Вавилония"
+ },
+ {
+  "eng": "Babylon",
+  "qtrn": "baibilon",
+  "rus": "Вавилон"
+ },
+ {
+  "eng": "babbie",
+  "qtrn": "baibi",
+  "rus": "ребенок"
+ },
+ {
+  "eng": "Bab el Mandeb",
+  "qtrn": "baibeyl'maindeyb",
+  "rus": "Баб-эль-Мандебский пролив"
+ },
+ {
+  "eng": "Bab",
+  "qtrn": "baib",
+  "rus": "Бэб"
+ },
+ {
+  "eng": "backbitten",
+  "qtrn": "bai,kbitn",
+  "rus": "злословить"
+ },
+ {
+  "eng": "bazooka",
+  "qtrn": "beer'zuuke",
+  "rus": "базука"
+ },
+ {
+  "eng": "Berwyn",
+  "qtrn": "beerwin",
+  "rus": "Беруин"
+ },
+ {
+  "eng": "Bertram",
+  "qtrn": "beertrem",
+  "rus": "Бертрам"
+ },
+ {
+  "eng": "birth-rate",
+  "qtrn": "beerxrejt",
+  "rus": "рождаемость"
+ },
+ {
+  "eng": "birthright",
+  "qtrn": "beerxrajt",
+  "rus": "право по рождению"
+ },
+ {
+  "eng": "birth-place",
+  "qtrn": "beerxplejs",
+  "rus": "родина"
+ },
+ {
+  "eng": "birth-pill",
+  "qtrn": "beerxpil",
+  "rus": "противозачаточная таблетка"
+ },
+ {
+  "eng": "birth-mark",
+  "qtrn": "beerxmaak",
+  "rus": "родинка"
+ },
+ {
+  "eng": "birthmark",
+  "qtrn": "beerxmaak",
+  "rus": "родинка"
+ },
+ {
+  "eng": "birth-control",
+  "qtrn": "beerxken,troul",
+  "rus": "регулирование рождаемости"
+ },
+ {
+  "eng": "birthing",
+  "qtrn": "beerxinn",
+  "rus": "относящийся к родам"
+ },
+ {
+  "eng": "Bertie",
+  "qtrn": "beerti",
+  "rus": "Берти"
+ },
+ {
+  "eng": "birthday",
+  "qtrn": "beerxdej",
+  "rus": "день рождения"
+ },
+ {
+  "eng": "Bert",
+  "qtrn": "beert",
+  "rus": "Берт"
+ },
+ {
+  "eng": "birth",
+  "qtrn": "beerx",
+  "rus": "рождение,"
+ },
+ {
+  "eng": "burster",
+  "qtrn": "beerste",
+  "rus": "разрывной заряд"
+ },
+ {
+  "eng": "bursting",
+  "qtrn": "beerstinn",
+  "rus": "взрыв"
+ },
+ {
+  "eng": "burgher",
+  "qtrn": "beerge",
+  "rus": "горожанин"
+ },
+ {
+  "eng": "burglary",
+  "qtrn": "beergleri",
+  "rus": "ночная кража со взломом"
+ },
+ {
+  "eng": "burglarize",
+  "qtrn": "beerglerajz",
+  "rus": "совершать кражу со взломом"
+ },
+ {
+  "eng": "burglar",
+  "qtrn": "beergle",
+  "rus": "вор-взломщик"
+ },
+ {
+  "eng": "burgle",
+  "qtrn": "beergl",
+  "rus": "совершать кражу со взломом"
+ },
+ {
+  "eng": "burgee",
+  "qtrn": "beerdqy",
+  "rus": "треугольный флажок"
+ },
+ {
+  "eng": "burgess",
+  "qtrn": "beerdqis",
+  "rus": "обитатель небольшого города, имеющего самоуправление"
+ },
+ {
+  "eng": "burgoo",
+  "qtrn": "beer'guu",
+  "rus": "густая овсянка"
+ },
+ {
+  "eng": "burg",
+  "qtrn": "beerg",
+  "rus": "город"
+ },
+ {
+  "eng": "bookstand",
+  "qtrn": "bukstaind",
+  "rus": "книжный стенд"
+ },
+ {
+  "eng": "bookstall",
+  "qtrn": "bukstool",
+  "rus": "книжный киоск"
+ },
+ {
+  "eng": "bookstore",
+  "qtrn": "bukstoo",
+  "rus": "книжный магазин"
+ },
+ {
+  "eng": "bookshop",
+  "qtrn": "bukshop",
+  "rus": "книжный магазин"
+ },
+ {
+  "eng": "bookshelf",
+  "qtrn": "buksheylf",
+  "rus": "книжная полка"
+ },
+ {
+  "eng": "Bukhara",
+  "qtrn": "bu'kaare",
+  "rus": "Бухара"
+ },
+ {
+  "eng": "bookable",
+  "qtrn": "bukebl",
+  "rus": "тот, который можно заказать заранее"
+ },
+ {
+  "eng": "book-plate",
+  "qtrn": "bukplejt",
+  "rus": "экслибрис"
+ },
+ {
+  "eng": "bookplate",
+  "qtrn": "bukplejt",
+  "rus": "экслибрис"
+ },
+ {
+  "eng": "bookman",
+  "qtrn": "bukmen",
+  "rus": "книгоиздатель"
+ },
+ {
+  "eng": "booklet",
+  "qtrn": "buklit",
+  "rus": "брошюра"
+ },
+ {
+  "eng": "bookless",
+  "qtrn": "buklis",
+  "rus": "невежественный"
+ },
+ {
+  "eng": "book-club",
+  "qtrn": "bukklab",
+  "rus": "клуб любителей книги"
+ },
+ {
+  "eng": "bookcase",
+  "qtrn": "bukkejs",
+  "rus": "книжный шкаф"
+ },
+ {
+  "eng": "bookish",
+  "qtrn": "bukish",
+  "rus": "педантичный"
+ },
+ {
+  "eng": "booking-clerk",
+  "qtrn": "bukinnklaak",
+  "rus": "кассир билетной, багажной театральной кассы"
+ },
+ {
+  "eng": "booking",
+  "qtrn": "bukinn",
+  "rus": "заказ\/ продажа билетов"
+ },
+ {
+  "eng": "booking-office",
+  "qtrn": "bukinn,ofis",
+  "rus": "билетная касса"
+ },
+ {
+  "eng": "bookie",
+  "qtrn": "buki",
+  "rus": "букмекер"
+ },
+ {
+  "eng": "broncho",
+  "qtrn": "bronnkou",
+  "rus": "полудикая лошадь"
+ },
+ {
+  "eng": "bronco",
+  "qtrn": "bronnkou",
+  "rus": "полудикая лошадь"
+ },
+ {
+  "eng": "bronchus",
+  "qtrn": "bronnkes",
+  "rus": "бронх"
+ },
+ {
+  "eng": "bronchial",
+  "qtrn": "bronnkjel",
+  "rus": "бронхиальный"
+ },
+ {
+  "eng": "bronchiole",
+  "qtrn": "bronnkioul",
+  "rus": "бронхиола"
+ },
+ {
+  "eng": "bronchia",
+  "qtrn": "bronnkie",
+  "rus": "бронхиолы"
+ },
+ {
+  "eng": "bronchitis",
+  "qtrn": "bronn'kajtis",
+  "rus": "бронхит"
+ },
+ {
+  "eng": "bronchi",
+  "qtrn": "bronnkaj",
+  "rus": "бронхи"
+ },
+ {
+  "eng": "Bromley",
+  "qtrn": "bromli",
+  "rus": "Бромли (Англия)"
+ },
+ {
+  "eng": "brolly",
+  "qtrn": "broli",
+  "rus": "зонтик\/ парашют\/ прыжок с парашютом"
+ },
+ {
+  "eng": "Brockton",
+  "qtrn": "brokten",
+  "rus": "Броктон (США, штат Массачусетс)"
+ },
+ {
+  "eng": "broccoli",
+  "qtrn": "brokeli",
+  "rus": "брокколи, капуста спаржевая"
+ },
+ {
+  "eng": "brocket",
+  "qtrn": "brokit",
+  "rus": "двухгодовалый олень"
+ },
+ {
+  "eng": "brock",
+  "qtrn": "brok",
+  "rus": "подонок"
+ },
+ {
+  "eng": "broiler",
+  "qtrn": "brojle",
+  "rus": "задира"
+ },
+ {
+  "eng": "broiling",
+  "qtrn": "brojlinn",
+  "rus": "жаркий"
+ },
+ {
+  "eng": "broiled",
+  "qtrn": "brojld",
+  "rus": "жареный"
+ },
+ {
+  "eng": "barley-break",
+  "qtrn": "baalibrejk",
+  "rus": "пятнашки"
+ },
+ {
+  "eng": "Bali",
+  "qtrn": "baali",
+  "rus": "Бали"
+ },
+ {
+  "eng": "barley",
+  "qtrn": "baali",
+  "rus": "ячмень"
+ },
+ {
+  "eng": "barley-water",
+  "qtrn": "baali,woote",
+  "rus": "ячменный отвар"
+ },
+ {
+  "eng": "broad arrow",
+  "qtrn": "brood'airou",
+  "rus": "английское правительственное клеймо"
+ },
+ {
+  "eng": "broadways",
+  "qtrn": "broodwejz",
+  "rus": "вширь, в ширину, поперек"
+ },
+ {
+  "eng": "broadwise",
+  "qtrn": "broodwajz",
+  "rus": "вширь, в ширину, поперек"
+ },
+ {
+  "eng": "broadtail",
+  "qtrn": "broodtejl",
+  "rus": "каракульча"
+ },
+ {
+  "eng": "broadsword",
+  "qtrn": "broodsood",
+  "rus": "палаш"
+ },
+ {
+  "eng": "broadsheet",
+  "qtrn": "broodshyt",
+  "rus": "плакат"
+ },
+ {
+  "eng": "Christiana",
+  "qtrn": ",kristiaane",
+  "rus": "Кристиана"
+ },
+ {
+  "eng": "Christianity",
+  "qtrn": ",kristi'ainiti",
+  "rus": "христианство"
+ },
+ {
+  "eng": "crystallization",
+  "qtrn": ",kristelaj'zejsh(e)n",
+  "rus": "кристаллизация"
+ },
+ {
+  "eng": "crystallography",
+  "qtrn": ",kriste'logrefi",
+  "rus": "кристаллография"
+ },
+ {
+  "eng": "crotcheteer",
+  "qtrn": ",kroche'tie",
+  "rus": "фантазер, человек с причудами"
+ },
+ {
+  "eng": "crocodilian",
+  "qtrn": ",kroke'dilien",
+  "rus": "крокодиловый"
+ },
+ {
+  "eng": "chronological",
+  "qtrn": ",krone'lodqik(e)l",
+  "rus": "хронологический"
+ },
+ {
+  "eng": "chronologic",
+  "qtrn": ",krone'lodqik",
+  "rus": "хронологический"
+ },
+ {
+  "eng": "cross-border",
+  "qtrn": ",kros'boode",
+  "rus": "заграничный, зарубежный, иностранный"
+ },
+ {
+  "eng": "cross-check",
+  "qtrn": ",kros'cheyk",
+  "rus": "перепроверять по разным источникам"
+ },
+ {
+  "eng": "cross-dress",
+  "qtrn": ",kros'dreys",
+  "rus": "носить одежду противоположного пола"
+ },
+ {
+  "eng": "cross-cultural",
+  "qtrn": ",kros'kalcherel",
+  "rus": "относящийся к разным культурам"
+ },
+ {
+  "eng": "credibility",
+  "qtrn": ",kredi'biliti",
+  "rus": "вероятность"
+ },
+ {
+  "eng": "chromosomal",
+  "qtrn": ",kroumesouml",
+  "rus": "хромосомный"
+ },
+ {
+  "eng": "carcinogenic",
+  "qtrn": ",kaasine'dqeynik",
+  "rus": "канцерогенный"
+ },
+ {
+  "eng": "carcinoma",
+  "qtrn": ",kaasi'noume",
+  "rus": "раковое новообразование, карцинома"
+ },
+ {
+  "eng": "cartilaginous",
+  "qtrn": ",kaati'laidqines",
+  "rus": "хрящевой"
+ },
+ {
+  "eng": "Carthaginian",
+  "qtrn": ",kaaxe'dqinien",
+  "rus": "карфагенский; пунический\/ карфагенянин"
+ },
+ {
+  "eng": "cartographical",
+  "qtrn": ",kaatou'graifik(e)l",
+  "rus": "картографический"
+ },
+ {
+  "eng": "cartographic",
+  "qtrn": ",kaatou'graifik",
+  "rus": "картографический"
+ },
+ {
+  "eng": "catalogue raisonne",
+  "qtrn": ",kaataa'loogreyzoo'nej",
+  "rus": "систематический каталог с краткими объяснениями"
+ },
+ {
+  "eng": "cuirassier",
+  "qtrn": ",kwire'sie",
+  "rus": "кирасир"
+ },
+ {
+  "eng": "chersonese",
+  "qtrn": ",keerse'nyz, 'keerse,nyz",
+  "rus": "полуостров"
+ },
+ {
+  "eng": "curvilinear",
+  "qtrn": ",keervi'linie",
+  "rus": "криволинейный"
+ },
+ {
+  "eng": "cabalistic",
+  "qtrn": ",kaibe'listik",
+  "rus": "каб(б)алистический; загадочный, мистический, неразгаданный, таинственный"
+ },
+ {
+  "eng": "cabbalistic",
+  "qtrn": ",kaibe'listik",
+  "rus": "каб(б)алистический; загадочный, мистический, неразгаданный, таинственный"
+ },
+ {
+  "eng": "cabriolet",
+  "qtrn": ",kaibriou'lej",
+  "rus": "кабриолет, кеб\/ легковой автомобиль с откидным верхом"
+ },
+ {
+  "eng": "cafeteria",
+  "qtrn": ",kaifi'tierie",
+  "rus": "кафе-закусочная, кафетерий"
+ },
+ {
+  "eng": "cack-handed",
+  "qtrn": ",kaik'haindid",
+  "rus": "неловкий, неуклюжий"
+ },
+ {
+  "eng": "calceolaria",
+  "qtrn": ",kailsie'leyerie",
+  "rus": "кальцеолярия, кошельки"
+ },
+ {
+  "eng": "cambrel",
+  "qtrn": ",kaimbrel",
+  "rus": "распорка для туш"
+ },
+ {
+  "eng": "cameleer",
+  "qtrn": ",kaimi'lie",
+  "rus": "погонщик верблюдов"
+ },
+ {
+  "eng": "campanile",
+  "qtrn": ",kaimpe'nyli",
+  "rus": "колокольня"
+ },
+ {
+  "eng": "camarilla",
+  "qtrn": ",kaime'rile",
+  "rus": "камарилья"
+ },
+ {
+  "eng": "camaraderie",
+  "qtrn": ",kaime'raaderi(:)",
+  "rus": "товарищество"
+ },
+ {
+  "eng": "Cam Ranh",
+  "qtrn": ",kaim'rain",
+  "rus": "Камрань (Вьетнам)"
+ },
+ {
+  "eng": "candelabrum",
+  "qtrn": ",kaindi'laabrem",
+  "rus": "канделябр"
+ },
+ {
+  "eng": "cannibalistic",
+  "qtrn": ",kainibe'listik",
+  "rus": "каннибальский"
+ },
+ {
+  "eng": "canalization",
+  "qtrn": ",kainelaj'zejsh(e)n",
+  "rus": "устройство каналов; система каналов"
+ },
+ {
+  "eng": "cannelloni",
+  "qtrn": ",kainelouni",
+  "rus": "трубочки из теста с мясной, сырной начинкой"
+ },
+ {
+  "eng": "canonization",
+  "qtrn": ",kainenaj'zejsh(e)n",
+  "rus": "канонизация; причисление к лику святых"
+ },
+ {
+  "eng": "cannonade",
+  "qtrn": ",kaine'nejd",
+  "rus": "канонада, орудийный огонь, пушечная стрельба\/ обстреливать артиллерийским огнем"
+ },
+ {
+  "eng": "cannoneer",
+  "qtrn": ",kaine'nie",
+  "rus": "артиллерист, канонир"
+ },
+ {
+  "eng": "cancellation",
+  "qtrn": ",kainse'lejsh(e)n",
+  "rus": "аннулирование; отмена; ликвидация\/ погашение\/ сокращение"
+ },
+ {
+  "eng": "Cantabrigian",
+  "qtrn": ",kainte'bridqien",
+  "rus": "кембриджский\/ студент, выпускник Кембриджского университета"
+ },
+ {
+  "eng": "Cantonese",
+  "qtrn": ",kainte'nyz",
+  "rus": "кантонец; житель уроженец Кантона (Гуанчжоу)\/ кантонский диалект китайского языка\/ кантонский"
+ },
+ {
+  "eng": "capillarity",
+  "qtrn": ",kaipi'lairiti",
+  "rus": "волосность, капиллярность"
+ },
+ {
+  "eng": "capitation",
+  "qtrn": ",kaipi'tejsh(e)n",
+  "rus": "исчисление, производимое из расчёта на одного человека"
+ },
+ {
+  "eng": "capital flight",
+  "qtrn": ",kaipitl'flajt",
+  "rus": "утечка капитала"
+ },
+ {
+  "eng": "capitalistic",
+  "qtrn": ",kaipite'listik",
+  "rus": "капиталистический"
+ },
+ {
+  "eng": "cappuccino",
+  "qtrn": ",kaipe'chynou",
+  "rus": "кофе со взбитыми сливками"
+ },
+ {
+  "eng": "capercailye",
+  "qtrn": ",kaipe'kejlji",
+  "rus": "глухарь"
+ },
+ {
+  "eng": "capercailzie",
+  "qtrn": ",kaipe'kejlzi",
+  "rus": "глухарь"
+ },
+ {
+  "eng": "caponier",
+  "qtrn": ",kaipe'nie",
+  "rus": "капонир"
+ },
+ {
+  "eng": "Caribbean Sea",
+  "qtrn": ",kairi'bien'sy",
+  "rus": "Карибское море (Атлантический океан)"
+ },
+ {
+  "eng": "carriage-paid",
+  "qtrn": ",kairidq'pejd",
+  "rus": "провоз оплачен, за перевозку уплачено"
+ },
+ {
+  "eng": "caricature",
+  "qtrn": ",kairike'tjue",
+  "rus": "карикатура\/ изображать в карикатурном виде"
+ },
+ {
+  "eng": "caricaturist",
+  "qtrn": ",kairike'tjuerist",
+  "rus": "карикатурист"
+ },
+ {
+  "eng": "casuistic",
+  "qtrn": ",kaizju'istik",
+  "rus": "казуистический"
+ },
+ {
+  "eng": "cybernation",
+  "qtrn": ",sajbe'nejsh(e)n",
+  "rus": "кибернетизация; внедрение компьютеров, компьютеризация"
+ },
+ {
+  "eng": "cybernetics",
+  "qtrn": ",sajbeer'neytiks",
+  "rus": "кибернетика"
+ },
+ {
+  "eng": "cyclopaedic",
+  "qtrn": ",sajklou'pydik",
+  "rus": "энциклопедический"
+ },
+ {
+  "eng": "cyclopedic",
+  "qtrn": ",sajklou'pydik",
+  "rus": "энциклопедический"
+ },
+ {
+  "eng": "cyclopaedia",
+  "qtrn": ",sajklou'pydje",
+  "rus": "энциклопедия"
+ },
+ {
+  "eng": "cyclopedia",
+  "qtrn": ",sajklou'pydje",
+  "rus": "энциклопедия"
+ },
+ {
+  "eng": "cyanosis",
+  "qtrn": ",saje'nousis",
+  "rus": "синюха, цианоз"
+ },
+ {
+  "eng": "cephalitis",
+  "qtrn": ",seyfe'lajtis",
+  "rus": "энцефалит, воспаление головного мозга"
+ },
+ {
+  "eng": "cephalopoda",
+  "qtrn": ",seyfe'lopede",
+  "rus": "головоногие"
+ },
+ {
+  "eng": "Cephalonia",
+  "qtrn": ",seyfe'lounie",
+  "rus": "Кефалония"
+ },
+ {
+  "eng": "chaise-longue",
+  "qtrn": ",shejz'loonn",
+  "rus": "шезлонг"
+ },
+ {
+  "eng": "celibatarian",
+  "qtrn": ",seylibe'teyerien",
+  "rus": "безбрачный\/ холостяк"
+ },
+ {
+  "eng": "celebration",
+  "qtrn": ",seyli'brejsh(e)n",
+  "rus": "празднование; празднество, торжества, торжество\/ церковная служба\/ восхваление, прославление"
+ },
+ {
+  "eng": "cellaret",
+  "qtrn": ",seyle'reyt",
+  "rus": "погребец"
+ },
+ {
+  "eng": "chemisette",
+  "qtrn": ",sheymi(:)'zeyt",
+  "rus": "шемизетка, манишка"
+ },
+ {
+  "eng": "centenarian",
+  "qtrn": ",seynti'neyerien",
+  "rus": "вековой, столетний\/ человек ста лет"
+ },
+ {
+  "eng": "centre-forward",
+  "qtrn": ",seynte'foowed",
+  "rus": "центральный нападающий"
+ },
+ {
+  "eng": "centralization",
+  "qtrn": ",seyntrelaj'zejsh(e)n",
+  "rus": "централизация; концентрация, скопление, сосредоточение"
+ },
+ {
+  "eng": "cerebellum",
+  "qtrn": ",seyri'beylem",
+  "rus": "мозжечок"
+ },
+ {
+  "eng": "cerebration",
+  "qtrn": ",seyri'brejsh(e)n",
+  "rus": "мозговая деятельность, работа мозга"
+ },
+ {
+  "eng": "distichous",
+  "qtrn": "distikes",
+  "rus": "расположенный двумя рядами, двурядный"
+ },
+ {
+  "eng": "distich",
+  "qtrn": "distik",
+  "rus": "двустишие, дистих"
+ },
+ {
+  "eng": "distent",
+  "qtrn": "dis'teynt",
+  "rus": "надутый, раздутый"
+ },
+ {
+  "eng": "distensible",
+  "qtrn": "dis'teynsebl",
+  "rus": "растяжимый, расширяемый, эластичный, растягивающийся"
+ },
+ {
+  "eng": "distension",
+  "qtrn": "dis'teynsh(e)n",
+  "rus": "растяжение, расширение, удлинение"
+ },
+ {
+  "eng": "distend",
+  "qtrn": "dis'teynd",
+  "rus": "надувать(ся), раздувать(ся), расширять(ся)"
+ },
+ {
+  "eng": "decenary",
+  "qtrn": "di'seyneri",
+  "rus": "десятилетие"
+ },
+ {
+  "eng": "decennary",
+  "qtrn": "di'seyneri",
+  "rus": "десятилетие"
+ },
+ {
+  "eng": "decennial",
+  "qtrn": "di'seynjel",
+  "rus": "десятилетний"
+ },
+ {
+  "eng": "decenniad",
+  "qtrn": "di'seyniaid",
+  "rus": "десятилетие"
+ },
+ {
+  "eng": "descendant",
+  "qtrn": "di'seyndent",
+  "rus": "отпрыск, потомок"
+ },
+ {
+  "eng": "descendable",
+  "qtrn": "di'seyndebl",
+  "rus": "передаваемый по наследству"
+ },
+ {
+  "eng": "descendible",
+  "qtrn": "di'seyndebl",
+  "rus": "передаваемый по наследству"
+ },
+ {
+  "eng": "descend",
+  "qtrn": "di'seynd",
+  "rus": "спускаться"
+ },
+ {
+  "eng": "decemvir",
+  "qtrn": "di'seymve",
+  "rus": "децемвир"
+ },
+ {
+  "eng": "disseminated",
+  "qtrn": "di'seyminejtid",
+  "rus": "рассеянный; рассредоточенный\/ вкрапленный, мелковкрапленный"
+ },
+ {
+  "eng": "disseminate",
+  "qtrn": "di'seyminejt",
+  "rus": "рассеивать, разбрасывать\/ распространять; сеять"
+ },
+ {
+  "eng": "Decembrist",
+  "qtrn": "di'seymbrist",
+  "rus": "декабрист"
+ },
+ {
+  "eng": "December",
+  "qtrn": "di'seymbe",
+  "rus": "декабрь"
+ },
+ {
+  "eng": "dissemblance",
+  "qtrn": "di'seymblens",
+  "rus": "различие; несходство; разница\/ лицемерие, притворство, фальшь"
+ },
+ {
+  "eng": "dissembler",
+  "qtrn": "di'seymble",
+  "rus": "лицемер, притворщик, обманщик"
+ },
+ {
+  "eng": "dissemble",
+  "qtrn": "di'seymbl",
+  "rus": "маскировать, скрывать\/ притворяться, прикидываться\/ замалчивать, закрывать глаза"
+ },
+ {
+  "eng": "disequilibrium",
+  "qtrn": "diseykwi'libriem",
+  "rus": "отсутствие, потеря, нарушение равновесия; неустойчивость"
+ },
+ {
+  "eng": "dissector-tube",
+  "qtrn": "di'seyktetjuub",
+  "rus": "диссектор"
+ },
+ {
+  "eng": "dissector",
+  "qtrn": "di'seykte",
+  "rus": "прозектор\/ диссектор"
+ },
+ {
+  "eng": "dissecting-room",
+  "qtrn": "di'seyktinnrum",
+  "rus": "секционный зал, прозекторская"
+ },
+ {
+  "eng": "deride",
+  "qtrn": "di'rajd",
+  "rus": "высмеивать, осмеивать"
+ },
+ {
+  "eng": "deodar",
+  "qtrn": "dioudaa",
+  "rus": "гималайский кедр"
+ },
+ {
+  "eng": "deerskin",
+  "qtrn": "dieskin",
+  "rus": "оленья кожа, лосина, замша"
+ },
+ {
+  "eng": "deary",
+  "qtrn": "dieri",
+  "rus": "милочка, душечка; дорогой; дорогая; голубчик; голубушка"
+ },
+ {
+  "eng": "dearie",
+  "qtrn": "dieri",
+  "rus": "дорогуша"
+ },
+ {
+  "eng": "deer-park",
+  "qtrn": "diepaak",
+  "rus": "олений заповедник"
+ },
+ {
+  "eng": "deer-neck",
+  "qtrn": "dieneyk",
+  "rus": "тонкая шея"
+ },
+ {
+  "eng": "deer-lick",
+  "qtrn": "dielik",
+  "rus": "участок солончаковой почвы, где олени лижут соль"
+ },
+ {
+  "eng": "dearly",
+  "qtrn": "dieli",
+  "rus": "нежно, ласково, любовно, с любовью\/ по дорогой цене, дорого"
+ },
+ {
+  "eng": "deer-hound",
+  "qtrn": "diehaund",
+  "rus": "шотландская борзая"
+ },
+ {
+  "eng": "dear-bought",
+  "qtrn": "dieboot",
+  "rus": "дорого доставшийся"
+ },
+ {
+  "eng": "dearborn",
+  "qtrn": "dieboon",
+  "rus": "легкий четырехколесный экипаж"
+ },
+ {
+  "eng": "dear",
+  "qtrn": "die",
+  "rus": "дорогой"
+ },
+ {
+  "eng": "deer",
+  "qtrn": "die",
+  "rus": "олень; лань; красный зверь"
+ },
+ {
+  "eng": "deerstalker",
+  "qtrn": "die,stooke",
+  "rus": "охотник на оленей, ланей\/ войлочная шляпа"
+ },
+ {
+  "eng": "deerstalking",
+  "qtrn": "die,stookinn",
+  "rus": "охота на оленей"
+ },
+ {
+  "eng": "deer-forest",
+  "qtrn": "die,forist",
+  "rus": "олений заповедник"
+ },
+ {
+  "eng": "dipterous",
+  "qtrn": "dipteres",
+  "rus": "двукрылый"
+ },
+ {
+  "eng": "dipteral",
+  "qtrn": "dipter(e)l",
+  "rus": "окруженный двойной колоннадой"
+ },
+ {
+  "eng": "diptych",
+  "qtrn": "diptik",
+  "rus": "; диптих\/ диптих, складная икона, двустворчатый складень; картина, состоящая из двух частей"
+ },
+ {
+  "eng": "dipstick",
+  "qtrn": "dipstik",
+  "rus": "измерительный стержень, указатель уровня"
+ },
+ {
+  "eng": "dipso",
+  "qtrn": "dipsou",
+  "rus": "алкоголик, алкаш; конченый бухарь, пропойца"
+ },
+ {
+  "eng": "exultant",
+  "qtrn": "ig'zalt(e)nt",
+  "rus": "ликующий, торжествующий"
+ },
+ {
+  "eng": "exultancy",
+  "qtrn": "ig'zalt(e)nsi",
+  "rus": "ликование, торжество"
+ },
+ {
+  "eng": "egad",
+  "qtrn": "i'gaid",
+  "rus": "ей-богу!"
+ },
+ {
+  "eng": "egregious",
+  "qtrn": "i'grydqes",
+  "rus": "вопиющий, отъявленный, очевидный"
+ },
+ {
+  "eng": "ejector seat",
+  "qtrn": "i'dqeyte'syt",
+  "rus": "катапультируемое сиденье"
+ },
+ {
+  "eng": "examinee",
+  "qtrn": "ig,zaimi'ny",
+  "rus": "экзаменующийся"
+ },
+ {
+  "eng": "elucidation",
+  "qtrn": "i,luusi'dejsh(e)n",
+  "rus": "консультирование, объяснение, разъяснение"
+ },
+ {
+  "eng": "electrolier",
+  "qtrn": "i,leyktrou'lie",
+  "rus": "люстра"
+ },
+ {
+  "eng": "electro-chemistry",
+  "qtrn": "i,leyktrou'keymistri",
+  "rus": "электрохимия"
+ },
+ {
+  "eng": "electrochemistry",
+  "qtrn": "i,leyktrou'keymistri",
+  "rus": "электрохимия"
+ },
+ {
+  "eng": "electrocardiogram",
+  "qtrn": "i,leyktrou,kaadie'graim",
+  "rus": "электрокардиограмма"
+ },
+ {
+  "eng": "electrocution",
+  "qtrn": "i,leyktre'kjuush(e)n",
+  "rus": "казнь на электрическом стуле"
+ },
+ {
+  "eng": "electroencephalogram",
+  "qtrn": "i,leyktre(u)in'seyfelegraim",
+  "rus": "электроэнцефалограмма, запись биотоков мозга"
+ },
+ {
+  "eng": "electrization",
+  "qtrn": "i,leyktri'zejsh(e)n",
+  "rus": "электризация"
+ },
+ {
+  "eng": "electrification",
+  "qtrn": "i,leyktrifi'kejsh(e)n",
+  "rus": "электризация"
+ },
+ {
+  "eng": "electioneering",
+  "qtrn": "i,leyksh(e)'nierinn",
+  "rus": "предвыборная кампания"
+ },
+ {
+  "eng": "equivocation",
+  "qtrn": "i,kwive'kejsh(e)n",
+  "rus": "ложь"
+ },
+ {
+  "eng": "equestrienne",
+  "qtrn": "i,kweystri'eyn",
+  "rus": "всадница; наездница"
+ },
+ {
+  "eng": "ecclesiastic",
+  "qtrn": "i,klyzi'aistik",
+  "rus": "духовное лицо, священнослужитель"
+ },
+ {
+  "eng": "ecclesiastical",
+  "qtrn": "i,klyzi'aistik(e)l",
+  "rus": "духовный, церковный"
+ },
+ {
+  "eng": "egalitarian",
+  "qtrn": "i,gaili'teyerien",
+  "rus": "поборник равноправия"
+ },
+ {
+  "eng": "ejaculation",
+  "qtrn": "i,dqaikju'lejsh(e)n",
+  "rus": "извержение\/ эякуляция\/ восклицание"
+ },
+ {
+  "eng": "effectuation",
+  "qtrn": "i,feyktju'ejsh(e)n",
+  "rus": "выполнение, исполнение, совершение"
+ },
+ {
+  "eng": "Erie Canal",
+  "qtrn": "i(e)rike'nail",
+  "rus": "канал Эри"
+ },
+ {
+  "eng": "eyre",
+  "qtrn": "eye",
+  "rus": "выездная сессия суда"
+ },
+ {
+  "eng": "everywhere",
+  "qtrn": "eyvriweye",
+  "rus": "везде, всюду, повсюду"
+ },
+ {
+  "eng": "everyone",
+  "qtrn": "eyvriwan",
+  "rus": "каждый, всякий; все"
+ },
+ {
+  "eng": "everything",
+  "qtrn": "eyvrixinn",
+  "rus": "все"
+ },
+ {
+  "eng": "everyplace",
+  "qtrn": "eyvri'plejs",
+  "rus": "всюду, повсюду; везде, везде-везде"
+ },
+ {
+  "eng": "Everyman",
+  "qtrn": "eyvrimain",
+  "rus": "обыкновенный, средний, рядовой человек; обыватель"
+ },
+ {
+  "eng": "everyday",
+  "qtrn": "eyvridej",
+  "rus": "ежедневный; повседневный; будничный; каждодневный, обычный"
+ },
+ {
+  "eng": "everybody",
+  "qtrn": "eyvribodi",
+  "rus": "каждый, всякий; все"
+ },
+ {
+  "eng": "every",
+  "qtrn": "eyvri",
+  "rus": "каждый, всякий, любой\/ все\/ всяческий, всевозможный"
+ },
+ {
+  "eng": "evocative",
+  "qtrn": "eyvouketiv",
+  "rus": "восстанавливающий в памяти, вызывающий воспоминания"
+ },
+ {
+  "eng": "everyhow",
+  "qtrn": "eyverihau, 'eyvrihau",
+  "rus": "по всякому, всячески, как хочешь"
+ },
+ {
+  "eng": "Everest",
+  "qtrn": "eyvereyst",
+  "rus": "Эверест"
+ },
+ {
+  "eng": "Evansville",
+  "qtrn": "eyvenzvil",
+  "rus": "Эвансвилл (США, штат Индиана)"
+ },
+ {
+  "eng": "Evanston",
+  "qtrn": "eyvensten",
+  "rus": "Эванстон (США, штат Иллинойс)"
+ },
+ {
+  "eng": "evermore",
+  "qtrn": "eyve'moo",
+  "rus": "навеки; навсегда; вечно"
+ },
+ {
+  "eng": "evergreen",
+  "qtrn": "eyvegryn",
+  "rus": "вечнозеленый\/ вечнозеленое растение"
+ },
+ {
+  "eng": "everglade",
+  "qtrn": "eyveglejd",
+  "rus": "болотистая низменность, местами поросшая высокой травой"
+ },
+ {
+  "eng": "ever frost",
+  "qtrn": "eyvefrost",
+  "rus": "вечная мерзлота"
+ },
+ {
+  "eng": "ever",
+  "qtrn": "eyve",
+  "rus": "всегда, вечно; постоянно; неизменно; в любое время\/ когда-либо\/ в какой-либо ситуации, в каком-либо случае"
+ },
+ {
+  "eng": "eviration",
+  "qtrn": "eyvi'rejshen",
+  "rus": "кастрация, кастрирование\/ приобретение мужчиной женских черт\/ слабость, бессилие"
+ },
+ {
+  "eng": "Evelyn",
+  "qtrn": "eyvilyn",
+  "rus": "Эвелин"
+ },
+ {
+  "eng": "evidently",
+  "qtrn": "eyvid(e)ntli",
+  "rus": "очевидно; несомненно; явно"
+ },
+ {
+  "eng": "evident",
+  "qtrn": "eyvid(e)nt",
+  "rus": "явный, очевидный; ясный, наглядный, несомненный; неприкрытый, откровенный, открытый"
+ },
+ {
+  "eng": "etui",
+  "qtrn": "ey'twy",
+  "rus": "ящичек, футляр"
+ },
+ {
+  "eng": "etwee",
+  "qtrn": "ey'twy",
+  "rus": "ящичек, футляр"
+ },
+ {
+  "eng": "etceteras",
+  "qtrn": "eyt'seyterez",
+  "rus": "и все прочее, всё остальное; всякая всячина; все, что прилагается"
+ },
+ {
+  "eng": "Etta",
+  "qtrn": "eyte",
+  "rus": "Этта"
+ },
+ {
+  "eng": "Etna",
+  "qtrn": "eytne",
+  "rus": "Этна"
+ },
+ {
+  "eng": "etna",
+  "qtrn": "eytne",
+  "rus": "род спиртовки"
+ },
+ {
+  "eng": "ethnology",
+  "qtrn": "eyx'noledqi",
+  "rus": "этнология"
+ },
+ {
+  "eng": "ethnography",
+  "qtrn": "eyx'nogrefi",
+  "rus": "этнография"
+ },
+ {
+  "eng": "ethnicity",
+  "qtrn": "eyx'nisiti",
+  "rus": "этническая или расовая принадлежность"
+ },
+ {
+  "eng": "ethnics",
+  "qtrn": "eyxniks",
+  "rus": "расовое, национальное, культурное происхождение"
+ },
+ {
+  "eng": "ethnical",
+  "qtrn": "eyxnikel",
+  "rus": "этнологический"
+ },
+ {
+  "eng": "ethmoid",
+  "qtrn": "eyxmojd",
+  "rus": "решетчатый"
+ },
+ {
+  "eng": "etymon",
+  "qtrn": "eytimon",
+  "rus": "этимон"
+ },
+ {
+  "eng": "ethyl",
+  "qtrn": "eyxil",
+  "rus": "этил"
+ },
+ {
+  "eng": "ethics",
+  "qtrn": "eyxiks",
+  "rus": "мораль, нравственность, этика"
+ },
+ {
+  "eng": "etiquette",
+  "qtrn": "eytikeyt",
+  "rus": "этикет\/ профессиональная этика\/ этикетка, ярлык, бирка"
+ },
+ {
+  "eng": "ethic",
+  "qtrn": "eyxik",
+  "rus": "нравственный, этический; моральный, этичный"
+ },
+ {
+  "eng": "ethical",
+  "qtrn": "eyxik(e)l",
+  "rus": "духовный; внутренний, душевный"
+ },
+ {
+  "eng": "ethane",
+  "qtrn": "eyxejn",
+  "rus": "этан"
+ },
+ {
+  "eng": "Ethel",
+  "qtrn": "eyx(e)l",
+  "rus": "Этель"
+ },
+ {
+  "eng": "estrus",
+  "qtrn": "eystres",
+  "rus": "течка; период течки"
+ },
+ {
+  "eng": "Estonian",
+  "qtrn": "eys'tounjen",
+  "rus": "эстонский\/ эстонец; эстонка\/ эстонцы\/ эстонский язык"
+ },
+ {
+  "eng": "Estonia",
+  "qtrn": "eys'tounje",
+  "rus": "Эстония"
+ },
+ {
+  "eng": "ester",
+  "qtrn": "eyste",
+  "rus": "сложный эфир"
+ },
+ {
+  "eng": "Esther",
+  "qtrn": "eyste",
+  "rus": "Эстер; Эсфирь"
+ },
+ {
+  "eng": "estuary",
+  "qtrn": "eystjueri",
+  "rus": "эстуарий, дельта; устье реки"
+ },
+ {
+  "eng": "estimable",
+  "qtrn": "eystimebl",
+  "rus": "заслуживающий, достойный уважения\/ ценный, важный"
+ },
+ {
+  "eng": "estimator",
+  "qtrn": "eystimejte",
+  "rus": "оценщик"
+ },
+ {
+  "eng": "Essen",
+  "qtrn": "eysen",
+  "rus": "Эссен (Германия)"
+ },
+ {
+  "eng": "eschalot",
+  "qtrn": "eyshelot",
+  "rus": "шалот"
+ },
+ {
+  "eng": "epicentre",
+  "qtrn": "eypiseynte",
+  "rus": "эпицентр"
+ },
+ {
+  "eng": "epicycloid",
+  "qtrn": "eypi'sajklojd",
+  "rus": "эпициклоида"
+ },
+ {
+  "eng": "epicycle",
+  "qtrn": "eypisajkl",
+  "rus": "эпицикл"
+ },
+ {
+  "eng": "epilogue",
+  "qtrn": "eypilog",
+  "rus": "эпилог"
+ },
+ {
+  "eng": "epilepsy",
+  "qtrn": "eypileypsi",
+  "rus": "эпилепсия"
+ },
+ {
+  "eng": "epicure",
+  "qtrn": "eypikjue",
+  "rus": "эпикуреец"
+ },
+ {
+  "eng": "epicurism",
+  "qtrn": "eypikju(e)rizm",
+  "rus": "(Epicureanism) философская система Эпикура\/ эпикурейство, эпикуреизм\/ склонность к наслаждениям"
+ },
+ {
+  "eng": "epic",
+  "qtrn": "eypik",
+  "rus": "эпическая поэма\/ эпопея\/ эпопея\/ эпический\/ огромный, грандиозный"
+ },
+ {
+  "eng": "epical",
+  "qtrn": "eypik(e)l",
+  "rus": "эпическая поэма\/ эпопея\/ эпопея\/ эпический\/ огромный, грандиозный"
+ },
+ {
+  "eng": "epigram",
+  "qtrn": "eypigraim",
+  "rus": "эпиграмма"
+ },
+ {
+  "eng": "epigraph",
+  "qtrn": "eypigraaf",
+  "rus": "эпиграф"
+ },
+ {
+  "eng": "epigraphy",
+  "qtrn": "ey'pigrefi",
+  "rus": "эпиграфика"
+ },
+ {
+  "eng": "epigone",
+  "qtrn": "eypigoun",
+  "rus": "эпигон"
+ },
+ {
+  "eng": "epiphyte",
+  "qtrn": "eypifajt",
+  "rus": "эпифит\/ грибковый паразит"
+ },
+ {
+  "eng": "enzyme",
+  "qtrn": "eynzajm",
+  "rus": "фермент, энзим"
+ },
+ {
+  "eng": "evolutional",
+  "qtrn": ",yve'luushenl",
+  "rus": "эволюционный"
+ },
+ {
+  "eng": "evolutionism",
+  "qtrn": ",yve'luushenizm",
+  "rus": "теория эволюции"
+ },
+ {
+  "eng": "evolutionist",
+  "qtrn": ",yve'luushenist",
+  "rus": "эволюционист"
+ },
+ {
+  "eng": "evolutionary",
+  "qtrn": ",yve'luushneri",
+  "rus": "эволюционный"
+ },
+ {
+  "eng": "evocation",
+  "qtrn": ",yve'kejshn",
+  "rus": "воскрешение в памяти"
+ },
+ {
+  "eng": "Eurocentric",
+  "qtrn": ",juerou'seyntrik",
+  "rus": "евроцентричный"
+ },
+ {
+  "eng": "European",
+  "qtrn": ",juere'pi(:)en",
+  "rus": "европейский\/ европеец"
+ },
+ {
+  "eng": "etherization",
+  "qtrn": ",yxeraj'zejsh(e)n",
+  "rus": "применение эфирного наркоза\/ успокоение, усмирение\/ превращение в эфир"
+ },
+ {
+  "eng": "Ethiopian",
+  "qtrn": ",yxi'oupjen",
+  "rus": "эфиопский\/ эфиоп"
+ },
+ {
+  "eng": "Ethiopia",
+  "qtrn": ",yxioupje",
+  "rus": "Эфиопия"
+ },
+ {
+  "eng": "etiology",
+  "qtrn": ",yti'oledqi",
+  "rus": "этиология"
+ },
+ {
+  "eng": "eructation",
+  "qtrn": ",yrak'tejsh(e)n",
+  "rus": "отрыжка\/ извержение\/ вулканические выделения, вулканические выбросы"
+ },
+ {
+  "eng": "eolation",
+  "qtrn": ",you'lejsh(e)n",
+  "rus": "выветривание"
+ },
+ {
+  "eng": "emendation",
+  "qtrn": ",ymeyn'dejsh(e)n",
+  "rus": "улучшение, изменение, исправление"
+ },
+ {
+  "eng": "elongation",
+  "qtrn": ",ylonn'gejsh(e)n",
+  "rus": "растяжение, удлинение; вытягивание\/ продление срока; продолжение, пролонгация\/ элонгация"
+ },
+ {
+  "eng": "equalization",
+  "qtrn": ",ykwelaj'zejsh(e)n",
+  "rus": "уравнение, уравнивание"
+ },
+ {
+  "eng": "equiangular",
+  "qtrn": ",ykwi'ainngjule",
+  "rus": "изогональный, равноугольный"
+ },
+ {
+  "eng": "equiponderant",
+  "qtrn": ",ykwi'ponderent",
+  "rus": "равный по весу\/ не имеющий перевеса; равный"
+ },
+ {
+  "eng": "equiponderate",
+  "qtrn": ",ykwi'ponderejt",
+  "rus": "уравновешивать, служить противовесом\/ находиться в состоянии равновесия"
+ },
+ {
+  "eng": "equipollent",
+  "qtrn": ",ykwi'polent",
+  "rus": "равный по силе, равносильный; равноценный"
+ },
+ {
+  "eng": "ecumenic",
+  "qtrn": ",ykju(:)'meynik",
+  "rus": "всемирный\/ экуменический, всемирный\/ вселенский"
+ },
+ {
+  "eng": "ecumenical",
+  "qtrn": ",ykju(:)'meynik(e)l",
+  "rus": "всемирный\/ экуменический, всемирный\/ вселенский"
+ },
+ {
+  "eng": "Euterpe",
+  "qtrn": ",juu'teerpy",
+  "rus": "Евтерпа"
+ },
+ {
+  "eng": "euthanasia",
+  "qtrn": ",juuxe'nejzje",
+  "rus": "безболезненная, легкая смерть\/ эвтаназия, эйтаназия"
+ },
+ {
+  "eng": "eulogistic",
+  "qtrn": ",juule'dqistik",
+  "rus": "панегирический, хвалебный"
+ },
+ {
+  "eng": "eulogistical",
+  "qtrn": ",juule'dqistik(e)l",
+  "rus": "панегирический, хвалебный"
+ },
+ {
+  "eng": "eucalyptus",
+  "qtrn": ",juuke'liptes",
+  "rus": "эвкалипт"
+ },
+ {
+  "eng": "euphemistic",
+  "qtrn": ",juufi'mistik",
+  "rus": "эвфемистический"
+ },
+ {
+  "eng": "euphemistical",
+  "qtrn": ",juufi'mistik(e)l",
+  "rus": "эвфемистический"
+ },
+ {
+  "eng": "eudiometer",
+  "qtrn": ",juudi'omite",
+  "rus": "эвдиометр"
+ },
+ {
+  "eng": "Egyptology",
+  "qtrn": ",ydqip'toledqi",
+  "rus": "египтология"
+ },
+ {
+  "eng": "escapee",
+  "qtrn": ",iskej'py",
+  "rus": "беглец"
+ },
+ {
+  "eng": "encrustation",
+  "qtrn": ",inkras'tejshn",
+  "rus": "инкрустация"
+ },
+ {
+  "eng": "expellee",
+  "qtrn": ",ikspey'ly",
+  "rus": "изгнанник"
+ },
+ {
+  "eng": "erenow",
+  "qtrn": ",eye'nau",
+  "rus": "вначале, прежде, раньше, сначала"
+ },
+ {
+  "eng": "erelong",
+  "qtrn": ",eye'lonn",
+  "rus": "вскоре, скоро"
+ },
+ {
+  "eng": "ever-present",
+  "qtrn": ",eyve'preyznt",
+  "rus": "вездесущий, повсеместный"
+ },
+ {
+  "eng": "ethnologic",
+  "qtrn": ",eyxnou'lodqik",
+  "rus": "этнологический"
+ },
+ {
+  "eng": "ethnological",
+  "qtrn": ",eyxnou'lodqik(e)l",
+  "rus": "этнологический"
+ },
+ {
+  "eng": "ethnographic",
+  "qtrn": ",eyxnou'graifik",
+  "rus": "этнографический"
+ },
+ {
+  "eng": "ethnographical",
+  "qtrn": ",eyxnou'graifik(e)l",
+  "rus": "этнографический"
+ },
+ {
+  "eng": "ethnocentric",
+  "qtrn": ",eyxnou'seyntrik",
+  "rus": "националистический, этноцентричный"
+ },
+ {
+  "eng": "etymologic",
+  "qtrn": ",eytime'lodqik",
+  "rus": "этимологический"
+ },
+ {
+  "eng": "etymological",
+  "qtrn": ",eytime'lodqik(e)l",
+  "rus": "этимологический"
+ },
+ {
+  "eng": "etymologist",
+  "qtrn": ",eyti'moledqist",
+  "rus": "этимолог"
+ },
+ {
+  "eng": "etymology",
+  "qtrn": ",eyti'moledqi",
+  "rus": "этимология"
+ },
+ {
+  "eng": "etymologize",
+  "qtrn": ",eyti'moledqajz",
+  "rus": "изучать этимологию; определять этимологию слова"
+ },
+ {
+  "eng": "esoteric",
+  "qtrn": ",eysou'teyrik",
+  "rus": "эзотерический, тайный, скрытый; известный или понятный лишь посвященным\/ посвященный"
+ },
+ {
+  "eng": "Esperanto",
+  "qtrn": ",eyspe'raintou",
+  "rus": "эсперанто"
+ },
+ {
+  "eng": "esplanade",
+  "qtrn": ",eysple'nejd",
+  "rus": "эспланада\/ эспланада, площадка для прогулок\/ ровная открытая местность\/ луг, лужайка"
+ },
+ {
+  "eng": "espionage",
+  "qtrn": ",eyspie'naaq",
+  "rus": "разведка, шпионаж, шпионство"
+ },
+ {
+  "eng": "escritoire",
+  "qtrn": ",eyskri(:)'twaa",
+  "rus": "секретер"
+ },
+ {
+  "eng": "escapologist",
+  "qtrn": ",eyske'poledqist",
+  "rus": "цирковой артист, демонстрирующий умение освобождаться от цепей"
+ },
+ {
+  "eng": "escapade",
+  "qtrn": ",eyske'pejd",
+  "rus": "эскапада; веселая, смелая проделка; шальная выходка\/ побег"
+ },
+ {
+  "eng": "escalation",
+  "qtrn": ",eyske'lejsh(e)n",
+  "rus": "эскалация, увеличение масштабов, расширение, распространение; рост, повышение; обострение"
+ },
+ {
+  "eng": "escalade",
+  "qtrn": ",eyske'lejd",
+  "rus": "эскалада"
+ },
+ {
+  "eng": "erudition",
+  "qtrn": ",eyru(:)'dish(e)n",
+  "rus": "эрудиция, ученость; знание, начитанность, образованность"
+ },
+ {
+  "eng": "erubescent",
+  "qtrn": ",eyru(:)'beysnt",
+  "rus": "краснеющий; покрывающийся румянцем\/ красноватый, красный"
+ },
+ {
+  "eng": "Erevan",
+  "qtrn": ",eyre'vaan",
+  "rus": "Ереван"
+ },
+ {
+  "eng": "Eritrea",
+  "qtrn": ",eyri'trye",
+  "rus": "Эритрея"
+ },
+ {
+  "eng": "erythema",
+  "qtrn": ",eyri'xyme",
+  "rus": "эритема"
+ },
+ {
+  "eng": "erysipelas",
+  "qtrn": ",eyri'sipiles",
+  "rus": "рожа, рожистое воспаление"
+ },
+ {
+  "eng": "eremitic",
+  "qtrn": ",eyri'mitik",
+  "rus": "затворнический, отшельнический"
+ },
+ {
+  "eng": "eremitical",
+  "qtrn": ",eyri'mitik(e)l",
+  "rus": "затворнический, отшельнический"
+ },
+ {
+  "eng": "Erzurum",
+  "qtrn": ",eyeze'ruum",
+  "rus": "Эрзурум (Турция)"
+ },
+ {
+  "eng": "Erzgebirge",
+  "qtrn": ",eyetsge'biege",
+  "rus": "Рудные горы (Германия, Чехия)"
+ },
+ {
+  "eng": "epizootic",
+  "qtrn": ",eypizou'otik",
+  "rus": "эпизоотический\/ эпизоотия"
+ },
+ {
+  "eng": "epithelium",
+  "qtrn": ",eypi'xyljem",
+  "rus": "эпителий"
+ },
+ {
+  "eng": "epithelial",
+  "qtrn": ",eypi'xyljel",
+  "rus": "эпителиальный"
+ },
+ {
+  "eng": "Ekaterinburg",
+  "qtrn": "(j)ey,kaiterin'bueg",
+  "rus": "Екатеринбург (Россия)"
+ },
+ {
+  "eng": "fat-witted",
+  "qtrn": "fait'witid",
+  "rus": "глупый, тупой, бестолковый"
+ },
+ {
+  "eng": "fatso",
+  "qtrn": "faitsou",
+  "rus": "жирняга, толстяк; толстячка, толстуха"
+ },
+ {
+  "eng": "fatten",
+  "qtrn": "faitn",
+  "rus": "откармливать на убой\/ делать более питательным\/ жиреть, толстеть\/ удобрять, обогащать, вносить удобрение"
+ },
+ {
+  "eng": "fatly",
+  "qtrn": "faitli",
+  "rus": "в большой степени\/ неуклюже\/ самодовольно, самоуверенно"
+ },
+ {
+  "eng": "fatuously",
+  "qtrn": "faitjuesli",
+  "rus": "глупо, бессмысленно; по-дурацки"
+ },
+ {
+  "eng": "fatuous",
+  "qtrn": "faitjues",
+  "rus": "бессмысленный, глупый, дурацкий\/ слабоумный"
+ },
+ {
+  "eng": "fatty",
+  "qtrn": "faiti",
+  "rus": "жирный; жировой\/ толстяк"
+ },
+ {
+  "eng": "fat-head",
+  "qtrn": "faitheyd",
+  "rus": "болван, олух, дурень"
+ },
+ {
+  "eng": "fat-guts",
+  "qtrn": "faitgats",
+  "rus": "толстяк"
+ },
+ {
+  "eng": "fast-talk",
+  "qtrn": "faist'took",
+  "rus": "уговаривать, улещать; красиво врать, обещать золотые горы и т.п.; склонять"
+ },
+ {
+  "eng": "fasti",
+  "qtrn": "faisty",
+  "rus": "анналы, летопись"
+ },
+ {
+  "eng": "fashionably",
+  "qtrn": "faishenebli",
+  "rus": "модный, стильный; светский; фешенебельный\/ светский человек"
+ },
+ {
+  "eng": "fashionable",
+  "qtrn": "faishnebl",
+  "rus": "модный, стильный; светский; фешенебельный\/ светский человек"
+ },
+ {
+  "eng": "fashioner",
+  "qtrn": "faishne",
+  "rus": "костюмер, портной"
+ },
+ {
+  "eng": "fasces",
+  "qtrn": "faisyz",
+  "rus": "пучок прутьев ликтора"
+ },
+ {
+  "eng": "fascine",
+  "qtrn": "fai'syn",
+  "rus": "фашина"
+ },
+ {
+  "eng": "fascism",
+  "qtrn": "faishizm",
+  "rus": "фашизм"
+ },
+ {
+  "eng": "faceting",
+  "qtrn": "faisitinn",
+  "rus": "гранение, нанесение граней"
+ },
+ {
+  "eng": "facetting",
+  "qtrn": "faisitinn",
+  "rus": "гранение, нанесение граней"
+ },
+ {
+  "eng": "faceted",
+  "qtrn": "faisitid",
+  "rus": "ограненный, многогранный; шлифованный\/ фасеточный"
+ },
+ {
+  "eng": "facetted",
+  "qtrn": "faisitid",
+  "rus": "ограненный, многогранный; шлифованный\/ фасеточный"
+ },
+ {
+  "eng": "fascist",
+  "qtrn": "faishist",
+  "rus": "фашист\/ фашистский"
+ },
+ {
+  "eng": "fascinator",
+  "qtrn": "faisinejte",
+  "rus": "волшебник, чародей\/ притягательный человек; очаровательная особа\/ легкий шарф, платок, шаль"
+ },
+ {
+  "eng": "fascinatingly",
+  "qtrn": "faisinejtinnli",
+  "rus": "обворожительный, очаровательный, пленительный"
+ },
+ {
+  "eng": "fascinating",
+  "qtrn": "faisinejtinn",
+  "rus": "обворожительный, очаровательный, пленительный"
+ },
+ {
+  "eng": "fascinate",
+  "qtrn": "faisinejt",
+  "rus": "восхищать, приводить в восторг, очаровывать, пленять\/ гипнотизировать, зачаровывать взглядом"
+ },
+ {
+  "eng": "fascicle",
+  "qtrn": "faisikl",
+  "rus": "связка, пучок\/ гроздь, пучок\/ отдельный выпуск"
+ },
+ {
+  "eng": "fascicule",
+  "qtrn": "faisikjuul",
+  "rus": "связка, пучок\/ гроздь, пучок\/ отдельный выпуск"
+ },
+ {
+  "eng": "fashion-monger",
+  "qtrn": "faish(e)n,mannge",
+  "rus": "модник; модница"
+ },
+ {
+  "eng": "farrow",
+  "qtrn": "fairou",
+  "rus": "свинка, поросенок\/ опорос\/ помет поросят\/ пороситься; приносить приплод\/ яловая, бесплодная, неоплодотворенная"
+ },
+ {
+  "eng": "farad",
+  "qtrn": "faired",
+  "rus": "фарад(а)"
+ },
+ {
+  "eng": "farriery",
+  "qtrn": "fairieri",
+  "rus": "кузнечное ремесло, искусство подковывания лошадей\/ кузница\/ ветеринарная хирургия"
+ },
+ {
+  "eng": "farrier",
+  "qtrn": "fairie",
+  "rus": "кузнец, подковывающий лошадей; ковочный кузнец\/ коновал"
+ },
+ {
+  "eng": "farinose",
+  "qtrn": "fairinous",
+  "rus": "мучнистый\/ как будто обсыпанный мукой\/ с белым, мучнистым налетом"
+ },
+ {
+  "eng": "Fahrenheit",
+  "qtrn": "fair(e)nhajt",
+  "rus": "термометр Фаренгейта; шкала термометра Фаренгейта"
+ },
+ {
+  "eng": "fanzine",
+  "qtrn": "fainzyn",
+  "rus": "журнал для болельщиков"
+ },
+ {
+  "eng": "fantastically",
+  "qtrn": "fain'taistikeli",
+  "rus": "по чьей-л. прихоти, произвольно\/ необычно, странно, прихотливо"
+ },
+ {
+  "eng": "fantastic",
+  "qtrn": "fain'taistik",
+  "rus": "фантастический, причудливый, прихотливый, сказочный, странный"
+ },
+ {
+  "eng": "first name",
+  "qtrn": "feerst'nejm",
+  "rus": "имя"
+ },
+ {
+  "eng": "first-night",
+  "qtrn": "feerstnajt",
+  "rus": "премьера, первое представление"
+ },
+ {
+  "eng": "firstling",
+  "qtrn": "feerstlinn",
+  "rus": "первые результаты, плоды\/ первенец"
+ },
+ {
+  "eng": "firstly",
+  "qtrn": "feerstli",
+  "rus": "во-первых"
+ },
+ {
+  "eng": "first cost",
+  "qtrn": "feerstkost",
+  "rus": "себестоимость, первоначальная стоимость"
+ },
+ {
+  "eng": "first class",
+  "qtrn": "feerst'klaas",
+  "rus": "первый класс, первая, высшая группа в классификации"
+ },
+ {
+  "eng": "first-class",
+  "qtrn": "feerst'klaas",
+  "rus": "первого класса\/ первоклассный, высшего качества, высшей пробы\/ в первом классе\/ отлично, прекрасно, превосходно"
+ },
+ {
+  "eng": "first-cousin",
+  "qtrn": "feerst'kazn",
+  "rus": "двоюродный брат; двоюродная сестра"
+ },
+ {
+  "eng": "first hand",
+  "qtrn": "feerst'haind",
+  "rus": "первоисточник\/ личный опыт"
+ },
+ {
+  "eng": "first-hand",
+  "qtrn": "feerst'haind",
+  "rus": "полученный из первых рук\/ из первых рук"
+ },
+ {
+  "eng": "firsthand",
+  "qtrn": "feerst'haind",
+  "rus": "полученный из первых рук\/ из первых рук"
+ },
+ {
+  "eng": "first-foot",
+  "qtrn": "feerstfut",
+  "rus": "первый гость в Новом году"
+ },
+ {
+  "eng": "first-fruits",
+  "qtrn": "feerstfruuts",
+  "rus": "первые плоды"
+ },
+ {
+  "eng": "first floor",
+  "qtrn": "feerst'floo",
+  "rus": "второй этаж\/ первый этаж\/ человек, занимающий нижний этаж"
+ },
+ {
+  "eng": "first-floor",
+  "qtrn": "feerstfloo",
+  "rus": "находящийся на втором этаже относящийся ко второму этажу\/ находящийся на первом этаже относящийся к первому этажу"
+ },
+ {
+  "eng": "first-aid",
+  "qtrn": "feerstejd",
+  "rus": "первая помощь, оказываемая до прибытия врача; скорая неотложная помощь"
+ },
+ {
+  "eng": "first-day",
+  "qtrn": "feerst'dej",
+  "rus": "воскресенье"
+ },
+ {
+  "eng": "first-chop",
+  "qtrn": "feerst'chop",
+  "rus": "первосортный"
+ },
+ {
+  "eng": "first-born",
+  "qtrn": "feerstboon",
+  "rus": "первенец"
+ },
+ {
+  "eng": "fir",
+  "qtrn": "feer",
+  "rus": "пихта; ель\/ древесина ели, пихты"
+ },
+ {
+  "eng": "fir-needle",
+  "qtrn": "feer,nydl",
+  "rus": "еловая сосновая игла, хвоя"
+ },
+ {
+  "eng": "footwork",
+  "qtrn": "futweerk",
+  "rus": "работа ног"
+ },
+ {
+  "eng": "footworn",
+  "qtrn": "futwoon",
+  "rus": "исхоженный, утоптанный, истертый ногами\/ уставший, утомленный; со стертыми ногами"
+ },
+ {
+  "eng": "foot-wear",
+  "qtrn": "futweye",
+  "rus": "обувь"
+ },
+ {
+  "eng": "footway",
+  "qtrn": "futwej",
+  "rus": "пешеходная дорожка или тропинка; тротуар\/ лестница"
+ },
+ {
+  "eng": "footstalk",
+  "qtrn": "futstook",
+  "rus": "стебель"
+ },
+ {
+  "eng": "footstool",
+  "qtrn": "futstuul",
+  "rus": "скамеечка для ног"
+ },
+ {
+  "eng": "footstep",
+  "qtrn": "futsteyp",
+  "rus": "след\/ поступь, походка\/ образ жизни, поведения\/ шаг, длина шага\/ подножка, ступенька\/ опора, пята"
+ },
+ {
+  "eng": "footsore",
+  "qtrn": "futsoo",
+  "rus": "со стертыми ногами"
+ },
+ {
+  "eng": "footsie",
+  "qtrn": "futsi",
+  "rus": "флирт, заигрывание"
+ },
+ {
+  "eng": "foot-rule",
+  "qtrn": "futruul",
+  "rus": "линейка, складной фут"
+ },
+ {
+  "eng": "foot-race",
+  "qtrn": "futrejs",
+  "rus": "состязание по ходьбе"
+ },
+ {
+  "eng": "footer",
+  "qtrn": "fute",
+  "rus": "футбол"
+ },
+ {
+  "eng": "footpad",
+  "qtrn": "futpaid",
+  "rus": "разбойник"
+ },
+ {
+  "eng": "foot-path",
+  "qtrn": "futpaax",
+  "rus": "пешеходная дорожка, тропинка"
+ },
+ {
+  "eng": "footprint",
+  "qtrn": "futprint",
+  "rus": "след, отпечаток\/ опорная поверхность\/ зона охвата; контур"
+ },
+ {
+  "eng": "foot-plate",
+  "qtrn": "futplejt",
+  "rus": "площадка машиниста паровоза"
+ },
+ {
+  "eng": "foot-pace",
+  "qtrn": "futpejs",
+  "rus": "шаг"
+ },
+ {
+  "eng": "foot-pound",
+  "qtrn": "futpaund",
+  "rus": "футофунт"
+ },
+ {
+  "eng": "foot-note",
+  "qtrn": "futnout",
+  "rus": "подстрочное примечание; сноска\/ снабжать подстрочными примечаниями, составлять подстрочные примечания"
+ },
+ {
+  "eng": "foot-mark",
+  "qtrn": "futmaak",
+  "rus": "след, отпечаток"
+ },
+ {
+  "eng": "footman",
+  "qtrn": "futmen",
+  "rus": "(ливрейный) лакей"
+ },
+ {
+  "eng": "footless",
+  "qtrn": "futlis",
+  "rus": "безногий\/ лишенный основания, несущественный\/ бестолковый, негодный, неподходящий, дурацкий"
+ },
+ {
+  "eng": "footling",
+  "qtrn": "futlinn",
+  "rus": "пустяковый, пустячный"
+ },
+ {
+  "eng": "footloose",
+  "qtrn": "futluus",
+  "rus": "независимый, свободный"
+ },
+ {
+  "eng": "footlights",
+  "qtrn": "futlajts",
+  "rus": "огни рампы; рампа"
+ },
+ {
+  "eng": "footage",
+  "qtrn": "futidq",
+  "rus": "длина пленки или фильма в футах, метраж\/ отснятый материал фильма"
+ },
+ {
+  "eng": "foothold",
+  "qtrn": "futhould",
+  "rus": "опора для ноги\/ точка опоры; устойчивое положение\/ опорный пункт, плацдарм"
+ },
+ {
+  "eng": "foot-hill",
+  "qtrn": "futhil",
+  "rus": "предгорье"
+ },
+ {
+  "eng": "Foot Guards",
+  "qtrn": "futgaadz",
+  "rus": "гвардейская пехота"
+ },
+ {
+  "eng": "foot-gear",
+  "qtrn": "futgie",
+  "rus": "обувь"
+ },
+ {
+  "eng": "footgear",
+  "qtrn": "futgie",
+  "rus": "обувь"
+ },
+ {
+  "eng": "footfall",
+  "qtrn": "futfool",
+  "rus": "шаг, поступь, походка\/ звук шагов"
+ },
+ {
+  "eng": "foot-bath",
+  "qtrn": "futbaax",
+  "rus": "ножная ванна"
+ },
+ {
+  "eng": "foot-bridge",
+  "qtrn": "futbridq",
+  "rus": "пешеходный мостик"
+ },
+ {
+  "eng": "foot brake",
+  "qtrn": "futbrejk",
+  "rus": "ножной тормоз"
+ },
+ {
+  "eng": "footballer",
+  "qtrn": "futboole",
+  "rus": "футболист"
+ },
+ {
+  "eng": "footballing",
+  "qtrn": "futboolinn",
+  "rus": "футбольный"
+ },
+ {
+  "eng": "football",
+  "qtrn": "futbool",
+  "rus": "футбол\/ американский футбол\/ футбольный мяч\/ что-л., перекидываемое туда-сода, как футбольный мяч"
+ },
+ {
+  "eng": "football-player",
+  "qtrn": "futbool,pleje",
+  "rus": "футболист"
+ },
+ {
+  "eng": "footboard",
+  "qtrn": "futbood",
+  "rus": "подножка, ступенька\/ изножье, основание\/ подкладка"
+ },
+ {
+  "eng": "foot-slogger",
+  "qtrn": "fut,sloge",
+  "rus": "солдат пехоты\/ пешеход"
+ },
+ {
+  "eng": "foot-passenger",
+  "qtrn": "fut,paisindqe",
+  "rus": "пешеход"
+ },
+ {
+  "eng": "full stop",
+  "qtrn": "fulstop",
+  "rus": "точка\/ полная остановка, прекращение"
+ },
+ {
+  "eng": "fulsome",
+  "qtrn": "fulsem",
+  "rus": "чрезмерный\/ льстивый"
+ },
+ {
+  "eng": "full-scale",
+  "qtrn": "ful'skejl",
+  "rus": "в натуральную величину\/ всеобъемлющий, полный, исчерпывающий"
+ },
+ {
+  "eng": "fuller",
+  "qtrn": "fule",
+  "rus": "валяльщик, сукновал\/ инструмент для выделки желобов\/ выделывать желоба\/ чеканить"
+ },
+ {
+  "eng": "full-pelt",
+  "qtrn": "fulpeylt",
+  "rus": "полным ходом; на полном ходу"
+ },
+ {
+  "eng": "fullness",
+  "qtrn": "fulnis",
+  "rus": "полнота, целостность\/ поглощенность\/ обилие\/ сытость\/ полнота, дородство; припухлость\/ достижение высшей точки"
+ },
+ {
+  "eng": "fulness",
+  "qtrn": "fulnis",
+  "rus": "полнота, целостность\/ поглощенность\/ обилие\/ сытость\/ полнота, дородство; припухлость\/ достижение высшей точки"
+ },
+ {
+  "eng": "full marks",
+  "qtrn": "ful'maaks",
+  "rus": "отличная оценка\/ высокая оценка; признание"
+ },
+ {
+  "eng": "fulmar",
+  "qtrn": "fulme",
+  "rus": "глупыш"
+ },
+ {
+  "eng": "full-mouthed",
+  "qtrn": "ful'mauthd",
+  "rus": "громкий\/ с полностью сохранившимися зубами"
+ },
+ {
+  "eng": "full-length",
+  "qtrn": "ful'leynnx",
+  "rus": "во всю длину, в полный рост\/ полный; без сокращений"
+ },
+ {
+  "eng": "fulling-mill",
+  "qtrn": "fulinnmil",
+  "rus": "сукновальная машина"
+ },
+ {
+  "eng": "fully",
+  "qtrn": "fuli",
+  "rus": "вполне, основательно, полностью, совершенно, совсем"
+ },
+ {
+  "eng": "full house",
+  "qtrn": "ful'hauz",
+  "rus": "аншлаг"
+ },
+ {
+  "eng": "full-grown",
+  "qtrn": "ful'groun",
+  "rus": "выросший, развившийся\/ взрослый, совершеннолетний"
+ },
+ {
+  "eng": "full-fashioned",
+  "qtrn": "ful'faish(e)nd",
+  "rus": "катонный"
+ },
+ {
+  "eng": "full-fledged",
+  "qtrn": "ful'fleydqd",
+  "rus": "вполне оперившийся\/ законченный, развившийся"
+ },
+ {
+  "eng": "fulfilment",
+  "qtrn": "ful'filment",
+  "rus": "выполнение; исполнение, осуществление; завершение\/ чувство удовлетворения"
+ },
+ {
+  "eng": "fulfil",
+  "qtrn": "ful'fil",
+  "rus": "выполнять; делать, исполнять, осуществлять, совершать\/ завершать, заканчивать, оканчивать\/ удовлетворять"
+ },
+ {
+  "eng": "full-faced",
+  "qtrn": "ful'fejst",
+  "rus": "с полным лицом, полнолицый, круглолицый\/ повернутый анфас"
+ },
+ {
+  "eng": "full-fed",
+  "qtrn": "ful'feyd",
+  "rus": "жирный, раскормленный\/ накормленный"
+ },
+ {
+  "eng": "full dress",
+  "qtrn": "ful'dreys",
+  "rus": "полная парадная форма"
+ },
+ {
+  "eng": "full-dress",
+  "qtrn": "ful'dreys",
+  "rus": "предусматривающий парадную форму одежды\/ обстоятельный; развёрнутый; затрагивающий все мельчайшие подробности"
+ },
+ {
+  "eng": "full-back",
+  "qtrn": "fulbaik",
+  "rus": "защитник"
+ },
+ {
+  "eng": "full-bodied",
+  "qtrn": "ful'bodid",
+  "rus": "полный; склонный к полноте"
+ },
+ {
+  "eng": "full-blast",
+  "qtrn": "ful'blaast",
+  "rus": "максимально полный, всеобъемлющий\/ интенсивный; обильный\/ сильно, что есть силы, изо всех сил; в полный рост, на все сто\/ интенсивно, обильно, часто"
+ },
+ {
+  "eng": "full-blown",
+  "qtrn": "ful'bloun",
+  "rus": "распустившийся; созревший, развившийся\/ полный, развитой"
+ },
+ {
+  "eng": "fullblown",
+  "qtrn": "ful'bloun",
+  "rus": "распустившийся; созревший, развившийся\/ полный, развитой"
+ },
+ {
+  "eng": "full board",
+  "qtrn": "ful'bood",
+  "rus": "полный пансион"
+ }
+]
