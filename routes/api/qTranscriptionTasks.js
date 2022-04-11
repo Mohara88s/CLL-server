@@ -5,7 +5,7 @@ const { qTranscriptionTasks: ctrl } = require('../../controllers')
 
 const router = express.Router()
 
-router.get('/', controllerWrapper(ctrl.getAllQTranscriptionTasks))
+router.get('/', controllerWrapper(ctrl.getAllQTranscriptionTasksByQuery))
 
 // router.get('/:taskId', authenticate, controllerWrapper(ctrl.getTaskById))
 
