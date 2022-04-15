@@ -5,6 +5,11 @@ const bcrypt = require('bcryptjs')
 const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
 const userSchema = Schema({
+  name: {
+    type: String,
+    required: [true, 'name is required'],
+    minlength: 3,
+  },
   password: {
     type: String,
     required: [true, 'Password is required'],
@@ -50,6 +55,7 @@ userSchema.methods.comparePassword = function(password) {
 const User = model('user', userSchema)
 
 const joiSchema = Joi.object({
+  name: Joi.string().required().min(3),
   password: Joi.string().required().min(8),
   email: Joi.string().required().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }),
   subscription: Joi.string(),

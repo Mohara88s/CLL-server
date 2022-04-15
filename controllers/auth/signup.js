@@ -1,12 +1,15 @@
+const { User } = require('../../models')
 const { Conflict } = require('http-errors')
+const jwt = require('jsonwebtoken')
+const { SECRET_KEY } = process.env
+
 const gravatar = require('gravatar')
 const { nanoid } = require('nanoid')
 
-const { User } = require('../../models')
 const { sendEmail } = require('../../helpers')
 
 const signup = async(req, res) => {
-  const { email, password } = req.body
+  const { name, email, password } = req.body
   const user = await User.findOne({ email })
   if (user) {
     throw new Conflict('Email in use')
@@ -14,6 +17,7 @@ const signup = async(req, res) => {
   const avatarURL = gravatar.url(email)
   const verificationToken = nanoid()
   const newUser = new User({
+    name,
     email,
     avatarURL,
     verificationToken
@@ -21,17 +25,27 @@ const signup = async(req, res) => {
   newUser.setPassword(password)
   await newUser.save()
 
-  const mail = {
-    to: email,
-    subject: 'Email verification',
-    html: `<a target="_blank"
-  href="http://localhost:3000/api/users/verification/${verificationToken}">CLICK THIS FOR VERIFICATION</a>`
+  // const mail = {
+  //   to: email,
+  //   subject: 'Email verification',
+  //   html: `<a target="_blank"
+  // href="http://localhost:3000/api/users/verification/${verificationToken}">CLICK THIS FOR VERIFICATION</a>`
+  // }
+  // sendEmail(mail)
+
+  const createdUser = await User.findOne({ email })
+  const payload = {
+    id: createdUser._id
   }
-  sendEmail(mail)
+  const token = jwt.sign(payload, SECRET_KEY)
+  await User.findByIdAndUpdate(createdUser._id, { token })
+
   res.status(201).json({
-    data: {
-      newUser,
-    }
+    user: {
+      name,
+      email,
+    },
+    token,
   })
 }
 module.exports = signup
