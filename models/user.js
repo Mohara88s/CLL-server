@@ -7,7 +7,7 @@ const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@
 const userSchema = Schema({
   name: {
     type: String,
-    required: [true, 'name is required'],
+    required: [true, 'Name is required'],
     minlength: 3,
   },
   password: {
@@ -62,7 +62,14 @@ const joiSchema = Joi.object({
   token: Joi.string()
 })
 
+const signinJoiSchema = Joi.object({
+  password: Joi.string().required().min(8),
+  email: Joi.string().required().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }),
+  subscription: Joi.string(),
+  token: Joi.string()
+})
 module.exports = {
   User,
   joiSchema,
+  signinJoiSchema,
 }
