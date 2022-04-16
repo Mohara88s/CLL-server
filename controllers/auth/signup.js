@@ -1,29 +1,29 @@
-const { User } = require('../../models')
-const { Conflict } = require('http-errors')
-const jwt = require('jsonwebtoken')
-const { SECRET_KEY } = process.env
+const { User } = require("../../models");
+const { Conflict } = require("http-errors");
+const jwt = require("jsonwebtoken");
+const { SECRET_KEY } = process.env;
 
-const gravatar = require('gravatar')
-const { nanoid } = require('nanoid')
+const gravatar = require("gravatar");
+const { nanoid } = require("nanoid");
 
-const { sendEmail } = require('../../helpers')
+const { sendEmail } = require("../../helpers");
 
-const signup = async(req, res) => {
-  const { name, email, password } = req.body
-  const user = await User.findOne({ email })
+const signup = async (req, res) => {
+  const { name, email, password } = req.body;
+  const user = await User.findOne({ email });
   if (user) {
-    throw new Conflict('Email in use')
+    throw new Conflict("Email in use");
   }
-  const avatarURL = gravatar.url(email)
-  const verificationToken = nanoid()
+  const avatarURL = gravatar.url(email);
+  const verificationToken = nanoid();
   const newUser = new User({
     name,
     email,
     avatarURL,
-    verificationToken
-  })
-  newUser.setPassword(password)
-  await newUser.save()
+    verificationToken,
+  });
+  newUser.setPassword(password);
+  await newUser.save();
 
   // const mail = {
   //   to: email,
@@ -33,12 +33,12 @@ const signup = async(req, res) => {
   // }
   // sendEmail(mail)
 
-  const createdUser = await User.findOne({ email })
+  const createdUser = await User.findOne({ email });
   const payload = {
-    id: createdUser._id
-  }
-  const token = jwt.sign(payload, SECRET_KEY)
-  await User.findByIdAndUpdate(createdUser._id, { token })
+    id: createdUser._id,
+  };
+  const token = jwt.sign(payload, SECRET_KEY);
+  await User.findByIdAndUpdate(createdUser._id, { token });
 
   res.status(201).json({
     user: {
@@ -46,6 +46,6 @@ const signup = async(req, res) => {
       email,
     },
     token,
-  })
-}
-module.exports = signup
+  });
+};
+module.exports = signup;

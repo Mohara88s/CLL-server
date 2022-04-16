@@ -1,5 +1,5 @@
-const getAllQTranscriptionTasksByQuery = require('./getAllQTranscriptionTasksByQuery')
+const getAllQTranscriptionTasksByQuery = require("./getAllQTranscriptionTasksByQuery");
 
 module.exports = {
   getAllQTranscriptionTasksByQuery,
-}
+};
