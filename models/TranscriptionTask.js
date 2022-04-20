@@ -1,10 +1,14 @@
 const { Schema, model } = require('mongoose')
 const Joi = require('joi')
 
-const qTranscriptionTaskSchema = Schema({
+const TranscriptionTaskSchema = Schema({
   eng: {
     type: String,
     required: [true, 'Set english version of task'],
+  },
+  trn: {
+    type: String,
+    required: [true, 'Set q-transcription version of task'],
   },
   qtrn: {
     type: String,
@@ -16,10 +20,12 @@ const qTranscriptionTaskSchema = Schema({
   }
 }, { versionKey: false, timestamps: true })
 
-const QTranscriptionTask = model('q-transcription-task', qTranscriptionTaskSchema)
+const TranscriptionTask = model('transcription-task', TranscriptionTaskSchema)
 
 const joiSchema = Joi.object({
   eng: Joi.string()
+    .required(),
+  trn: Joi.string()
     .required(),
   qtrn: Joi.string()
     .required(),
@@ -28,6 +34,6 @@ const joiSchema = Joi.object({
 })
 
 module.exports = {
-  QTranscriptionTask,
+  TranscriptionTask,
   joiSchema
 }
