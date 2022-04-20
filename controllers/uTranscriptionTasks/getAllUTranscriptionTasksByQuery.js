@@ -1,4 +1,6 @@
 const { TranscriptionTask: Task } = require("../../models");
+const { NotFound } = require("http-errors");
+
 const Vaul = {
 	R: "A",
 	L: "O",
@@ -20,23 +22,26 @@ const getAllUTranscriptionTasksByQuery = async (req, res, next) => {
 	const { page = 1, limit = 20, query = "" } = req.query;
 	const skip = (page - 1) * limit;
 	const querySt = { eng: { $regex: `.*${query}.*` } };
-	const result = await Task.find(querySt, '_id eng rus trn')
+	const result = await Task.find(querySt, "_id eng rus trn")
 		.skip(skip)
 		.limit(+limit);
-  const tasks = []
+	if (!result.length) {
+		throw new NotFound("No data by your query");
+	}
+	const tasks = [];
 	result.map((obj) => {
 		const arr = [];
-    obj["trn"].split("").map((e) => {
-      if (e ==='[' || e==="]") return
+		obj["trn"].split("").map((e) => {
+			if (e === "[" || e === "]") return;
 			if (vaul.includes(e)) {
 				arr.push(Vaul[e]);
 			} else {
 				arr.push(e);
 			}
 		});
-    const some = {...obj._doc, utrn:arr.join('')}
-    delete some.trn;
-    tasks.push(some)
+		const some = { ...obj._doc, utrn: arr.join("") };
+		delete some.trn;
+		tasks.push(some);
 	});
 
 	res.status(200).json({
