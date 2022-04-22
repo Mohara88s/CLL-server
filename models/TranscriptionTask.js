@@ -14,6 +14,10 @@ const TranscriptionTaskSchema = Schema({
     type: String,
     required: [true, 'Set q-transcription version of task'],
   },
+  utrn: {
+    type: String,
+    required: [true, 'Set u-transcription version of task'],
+  },
   rus: {
     type: String,
     required: [true, 'Set translation version of task'],

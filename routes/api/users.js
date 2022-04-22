@@ -10,6 +10,10 @@ router.get('/current', authenticate, controllerWrapper(ctrl.current))
 
 router.patch('/current', authenticate, controllerWrapper(ctrl.updateSubscription))
 
+router.get('/own-u-dictionary', authenticate, controllerWrapper(ctrl.getOwnUDictionary))
+
+router.patch('/own-u-dictionary', authenticate, controllerWrapper(ctrl.updateOwnUDictionary))
+
 router.patch('/avatars', authenticate, upload.single('avatar'), resizing, controllerWrapper(ctrl.updateAvatar))
 
 router.get('/verification/:verificationToken', controllerWrapper(ctrl.emailVerification))
