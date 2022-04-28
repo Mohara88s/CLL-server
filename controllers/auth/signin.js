@@ -4,7 +4,8 @@ const jwt = require("jsonwebtoken");
 const { SECRET_KEY } = process.env;
 
 const signin = async (req, res) => {
-  const { email, password } = req.body;
+  const { email:notUpdatedEmail, password } = req.body;
+  const email = notUpdatedEmail.toLowerCase()
   const user = await User.findOne({ email });
   if (!user || !user.comparePassword(password)) {
     throw new Unauthorized("Email or password is wrong");

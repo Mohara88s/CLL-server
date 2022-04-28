@@ -6,6 +6,9 @@ const router = express.Router()
 
 router.get('/', controllerWrapper(ctrl.getAllUTranscriptionTasksByQuery))
 
+router.get('/trn-to-utrn', controllerWrapper(ctrl.getTrnToUtrnTransformer))
+
+
 // router.get('/:taskId', authenticate, controllerWrapper(ctrl.getTaskById))
 
 // router.post('/', authenticate, validation(joiSchema), controllerWrapper(ctrl.addTask))

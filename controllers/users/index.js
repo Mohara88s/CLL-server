@@ -1,15 +1,17 @@
 const current = require("./current");
 const updateSubscription = require("./updateSubscription");
-const getOwnUDictionary = require("./getOwnUDictionary");
-const updateOwnUDictionary = require("./updateOwnUDictionary");
+const getOwnDictionarys = require("./getOwnDictionarys");
+const getOwnDictionary = require("./getOwnDictionary");
+const addOwnDictionary = require("./addOwnDictionary");
 const updateAvatar = require("./updateAvatar");
 const emailVerification = require("./emailVerification");
 const emailReVerification = require("./emailReVerification");
 module.exports = {
   current,
   updateSubscription,
-  getOwnUDictionary,
-  updateOwnUDictionary,
+  getOwnDictionarys,
+  getOwnDictionary,
+  addOwnDictionary,
   updateAvatar,
   emailVerification,
   emailReVerification,

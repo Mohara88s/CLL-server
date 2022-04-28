@@ -9,7 +9,9 @@ const { nanoid } = require("nanoid");
 const { sendEmail } = require("../../helpers");
 
 const signup = async (req, res) => {
-  const { name, email, password } = req.body;
+  const { name, email:notUpdatedEmail, password } = req.body;
+  const email = notUpdatedEmail.toLowerCase()
+  console.log(email)
   const user = await User.findOne({ email });
   if (user) {
     throw new Conflict("Email in use");

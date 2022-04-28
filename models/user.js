@@ -44,9 +44,9 @@ const userSchema = Schema(
 			type: String,
 			required: [true, "Verify token is required"],
 		},
-		ownUDictionary: [
+		ownDictionarys: [
 			{ type: Schema.Types.ObjectId, 
-        ref: "transcription-task", 
+			ref: "own-dictionary", 
       },
 		],
 	},

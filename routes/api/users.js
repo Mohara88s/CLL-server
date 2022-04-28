@@ -10,9 +10,11 @@ router.get('/current', authenticate, controllerWrapper(ctrl.current))
 
 router.patch('/current', authenticate, controllerWrapper(ctrl.updateSubscription))
 
-router.get('/own-u-dictionary', authenticate, controllerWrapper(ctrl.getOwnUDictionary))
+router.get('/own-dictionarys', authenticate, controllerWrapper(ctrl.getOwnDictionarys))
 
-router.patch('/own-u-dictionary', authenticate, controllerWrapper(ctrl.updateOwnUDictionary))
+router.patch('/own-dictionarys', authenticate, controllerWrapper(ctrl.addOwnDictionary))
+
+router.get('/own-dictionary/:dictionaryId', controllerWrapper(ctrl.getOwnDictionary))
 
 router.patch('/avatars', authenticate, upload.single('avatar'), resizing, controllerWrapper(ctrl.updateAvatar))
 
