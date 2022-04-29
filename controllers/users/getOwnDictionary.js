@@ -1,5 +1,5 @@
 const { OwnDictionary } = require("../../models");
-const { ExpectationFailed } = require("http-errors");
+const { NotFound } = require("http-errors");
 
 const getOwnDictionary = async (req, res) => {
 	const { dictionaryId } = req.params
@@ -7,7 +7,7 @@ const getOwnDictionary = async (req, res) => {
 	.populate("ownDictionaryTasks", ["eng", "rus", "utrn"]);
 
 	if (!ownDictionary) {
-		throw new ExpectationFailed(`Error working with database`);
+		throw new NotFound(`own dictionary with id=${dictionaryId} not found`)
 	}
 
 	res.status(200).json({

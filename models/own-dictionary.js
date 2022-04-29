@@ -8,10 +8,15 @@ const ownDictionarySchema = Schema(
 			required: [true, "Own dictionary name is required"],
 			minlength: 3,
 		},
-		ownDictionaryTasks: [{ 
-			type: Schema.Types.ObjectId,
-			ref: "transcription-task" }],
+		ownDictionaryTasks: [
+			{
+				type: Schema.Types.ObjectId,
+				ref: "transcription-task",
+			},
+		],
+		ownDictionaryOwner: { type: Schema.Types.ObjectId, ref: "user" },
 	},
+
 	{ versionKey: false, timestamps: true }
 );
 

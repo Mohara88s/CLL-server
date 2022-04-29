@@ -14,6 +14,8 @@ router.get('/own-dictionarys', authenticate, controllerWrapper(ctrl.getOwnDictio
 
 router.patch('/own-dictionarys', authenticate, controllerWrapper(ctrl.addOwnDictionary))
 
+router.delete('/own-dictionarys/:dictionaryId', authenticate, controllerWrapper(ctrl.removeOwnDictionaryById))
+
 router.get('/own-dictionary/:dictionaryId', controllerWrapper(ctrl.getOwnDictionary))
 
 router.patch('/avatars', authenticate, upload.single('avatar'), resizing, controllerWrapper(ctrl.updateAvatar))

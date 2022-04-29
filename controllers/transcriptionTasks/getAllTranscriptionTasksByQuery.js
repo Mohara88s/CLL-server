@@ -1,7 +1,7 @@
 const { TranscriptionTask: Task } = require("../../models");
 const { NotFound } = require("http-errors");
 
-const getAllUTranscriptionTasksByQuery = async (req, res, next) => {
+const getAllTranscriptionTasksByQuery = async (req, res, next) => {
 	const { page = 1, limit = 20, query = "" } = req.query;
 	const skip = (page - 1) * limit;
 	const querySt = { eng: { $regex: `^${query}` } };
@@ -17,4 +17,4 @@ const getAllUTranscriptionTasksByQuery = async (req, res, next) => {
 	});
 };
 
-module.exports = getAllUTranscriptionTasksByQuery;
+module.exports = getAllTranscriptionTasksByQuery;

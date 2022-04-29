@@ -12,7 +12,8 @@ const addOwnDictionary = async (req, res, next) => {
 	}
 	const ownDictionary = new OwnDictionary({
 		ownDictionaryName,
-		ownDictionaryTasks
+		ownDictionaryTasks,
+		ownDictionaryOwner:_id
 	})
 	await ownDictionary.save();
 	const createdOwnDictionary = await OwnDictionary.findOne({ ownDictionaryName });

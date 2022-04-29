@@ -1,11 +1,9 @@
-const uTranscriptionTasks = require('./uTranscriptionTasks')
-const qTranscriptionTasks = require('./qTranscriptionTasks')
+const transcriptionTasks = require('./transcriptionTasks')
 const auth = require('./auth')
 const users = require('./users')
 
 module.exports = {
-  uTranscriptionTasks,
-  qTranscriptionTasks,
+  transcriptionTasks,
   auth,
   users,
 }
