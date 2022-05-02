@@ -1,7 +1,7 @@
 const { OwnDictionary } = require("../../models");
 const { NotFound } = require("http-errors");
 
-const getOwnDictionary = async (req, res) => {
+const getOwnDictionaryById = async (req, res) => {
 	const { dictionaryId } = req.params
 	const  ownDictionary  = await OwnDictionary.findById(dictionaryId)
 	.populate("ownDictionaryTasks", ["eng", "rus", "utrn"]);
@@ -14,4 +14,4 @@ const getOwnDictionary = async (req, res) => {
 		ownDictionary,
 	});
 };
-module.exports = getOwnDictionary;
+module.exports = getOwnDictionaryById;
