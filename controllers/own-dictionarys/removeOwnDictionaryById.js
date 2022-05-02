@@ -5,7 +5,7 @@ const removeOwnDictionaryById = async (req, res, next) => {
 	const { _id } = req.user;
 	const { dictionaryId } = req.params;
 	if (!dictionaryId) {
-		throw new BadRequest("missing field dictionaryId");
+		throw new BadRequest("Missing field dictionaryId");
 	}
 
 	const user = await User.findById(_id);
@@ -18,7 +18,7 @@ const removeOwnDictionaryById = async (req, res, next) => {
 		{ new: true }
 	).populate("ownDictionarys", ["ownDictionaryName", "ownDictionaryTasks"]);
 	if (!ownDictionarys) {
-		throw new NotFound(`own dictionary with id=${dictionaryId} not found`);
+		throw new NotFound(`Own dictionary with id=${dictionaryId} not found`);
 	}
 
 	const { ownDictionaryOwner } = await OwnDictionary.findById(dictionaryId);

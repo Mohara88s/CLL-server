@@ -5,10 +5,10 @@ const addOwnDictionary = async (req, res, next) => {
 	const { _id } = req.user;
 	const { ownDictionaryName, ownDictionaryTasks } = req.body;
 	if (!ownDictionaryName) {
-		throw new BadRequest("missing field ownDictionaryName");
+		throw new BadRequest("The name of the dictionary is required");
 	}
-	if (!ownDictionaryTasks) {
-		throw new BadRequest("missing field ownDictionaryTasks");
+	if (!ownDictionaryTasks.length) {
+		throw new BadRequest("Words are required for the dictionary");
 	}
 	const ownDictionary = new OwnDictionary({
 		ownDictionaryName,

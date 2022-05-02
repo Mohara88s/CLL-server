@@ -14,7 +14,7 @@ const signup = async (req, res) => {
   console.log(email)
   const user = await User.findOne({ email });
   if (user) {
-    throw new Conflict("Email in use");
+    throw new Conflict("This email is already in use");
   }
   const avatarURL = gravatar.url(email);
   const verificationToken = nanoid();
