@@ -7,7 +7,7 @@ const getOwnDictionaryById = async (req, res) => {
 		throw new BadRequest("Missing field dictionaryId");
 	}
 	const  ownDictionary  = await OwnDictionary.findById(dictionaryId)
-	.populate("ownDictionaryTasks", ["eng", "rus", "utrn"]);
+	.populate("ownDictionaryTasks", ["eng", "rus", "utrn", "qtrn"]);
 
 	if (!ownDictionary) {
 		throw new NotFound(`Own dictionary with id=${dictionaryId} not found`)
