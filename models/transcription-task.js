@@ -31,7 +31,7 @@ const TranscriptionTaskSchema = Schema(
 	{ versionKey: false, timestamps: true }
 );
 
-const TranscriptionTask = model("transcription-task", TranscriptionTaskSchema);
+const TranscriptionTask = model("TranscriptionTask", TranscriptionTaskSchema);
 
 const joiSchema = Joi.object({
 	eng: Joi.string().required(),

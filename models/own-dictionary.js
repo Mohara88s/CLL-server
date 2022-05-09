@@ -11,16 +11,16 @@ const ownDictionarySchema = Schema(
 		ownDictionaryTasks: [
 			{
 				type: Schema.Types.ObjectId,
-				ref: "transcription-task",
+				ref: "TranscriptionTask",
 			},
 		],
-		ownDictionaryOwner: { type: Schema.Types.ObjectId, ref: "user" },
+		ownDictionaryOwner: { type: Schema.Types.ObjectId, ref: "User" },
 	},
 
 	{ versionKey: false, timestamps: true }
 );
 
-const OwnDictionary = model("own-dictionary", ownDictionarySchema);
+const OwnDictionary = model("OwnDictionary", ownDictionarySchema);
 
 const joiSchema = Joi.object({
 	ownDictionaryName: Joi.string().required(),

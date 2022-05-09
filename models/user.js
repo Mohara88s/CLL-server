@@ -46,7 +46,7 @@ const userSchema = Schema(
 		},
 		ownDictionarys: [
 			{ type: Schema.Types.ObjectId, 
-			ref: "own-dictionary", 
+			ref: "OwnDictionary", 
       },
 		],
 	},
@@ -61,7 +61,7 @@ userSchema.methods.comparePassword = function (password) {
 	return bcrypt.compareSync(password, this.password);
 };
 
-const User = model("user", userSchema);
+const User = model("User", userSchema);
 
 const joiSchema = Joi.object({
 	name: Joi.string().required().min(3),
