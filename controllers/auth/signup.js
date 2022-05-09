@@ -6,12 +6,11 @@ const { SECRET_KEY } = process.env;
 const gravatar = require("gravatar");
 const { nanoid } = require("nanoid");
 
-const { sendEmail } = require("../../helpers");
+// const { sendEmail } = require("../../helpers");
 
 const signup = async (req, res) => {
   const { name, email:notUpdatedEmail, password } = req.body;
   const email = notUpdatedEmail.toLowerCase()
-  console.log(email)
   const user = await User.findOne({ email });
   if (user) {
     throw new Conflict("This email is already in use");

@@ -3,14 +3,14 @@ const { ExpectationFailed } = require("http-errors");
 
 const getOwnUDictionarys = async (req, res) => {
 	const { _id } = req.user;
-	const { ownDictionarys } = await User.findById(_id)
-	.populate({
+	const { ownDictionarys } = await User.findById(_id).populate({
 		path: "ownDictionarys",
-		select:  ["ownDictionaryName", "ownDictionaryTasks"],
+		select: ["ownDictionaryName", "ownDictionaryTasks"],
 		populate: {
 			path: "ownDictionaryTasks",
-		}
-	})
+			select: ["eng", "rus", "utrn", "qtrn"],
+		},
+	});
 
 	if (!ownDictionarys) {
 		throw new ExpectationFailed(`Error working with database`);

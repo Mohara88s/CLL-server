@@ -16,7 +16,15 @@ const removeOwnDictionaryById = async (req, res, next) => {
 		_id,
 		{ ownDictionarys: updatedDictionarys },
 		{ new: true }
-	).populate("ownDictionarys", ["ownDictionaryName", "ownDictionaryTasks"]);
+	).populate({
+		path: "ownDictionarys",
+		select: ["ownDictionaryName", "ownDictionaryTasks"],
+		populate: {
+			path: "ownDictionaryTasks",
+			select: ["eng", "rus", "utrn", "qtrn"],
+		},
+	});
+	
 	if (!ownDictionarys) {
 		throw new NotFound(`Own dictionary with id=${dictionaryId} not found`);
 	}

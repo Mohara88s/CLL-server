@@ -7,7 +7,10 @@ const signin = async (req, res) => {
   const { email:notUpdatedEmail, password } = req.body;
   const email = notUpdatedEmail.toLowerCase()
   const user = await User.findOne({ email });
-  if (!user || !user.comparePassword(password)) {
+  if (!user) {
+    throw new Unauthorized("Email not registered");
+  }
+  if (!user.comparePassword(password)) {
     throw new Unauthorized("Email or password is wrong");
   }
 
