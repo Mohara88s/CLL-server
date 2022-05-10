@@ -6,7 +6,7 @@ const ownDictionarySchema = Schema(
 		ownDictionaryName: {
 			type: String,
 			required: [true, "Own dictionary name is required"],
-			unique: true,
+			// unique: true,
 		},
 		ownDictionaryTasks: [
 			{

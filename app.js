@@ -4,7 +4,7 @@ const cors = require('cors')
 
 const authRouter = require('./routes/api/auth')
 const transcriptionTasksRouter = require('./routes/api/transcription-tasks')
-const ownDictionarysRouter = require('./routes/api/own-dictionarys')
+const ownDictionariesRouter = require('./routes/api/own-dictionaries')
 const usersRouter = require('./routes/api/users')
 
 const app = express()
@@ -16,7 +16,7 @@ app.use(cors())
 app.use(express.json())
 app.use('/api/auth', authRouter)
 app.use('/api/transcription-tasks', transcriptionTasksRouter)
-app.use('/api/own-dictionarys', ownDictionarysRouter)
+app.use('/api/own-dictionaries', ownDictionariesRouter)
 app.use('/api/users', usersRouter)
 app.use(express.static('public'))
 

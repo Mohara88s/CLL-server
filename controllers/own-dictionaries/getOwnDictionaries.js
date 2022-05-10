@@ -1,10 +1,10 @@
 const { User } = require("../../models");
 const { ExpectationFailed } = require("http-errors");
 
-const getOwnUDictionarys = async (req, res) => {
+const getOwnUDictionaries = async (req, res) => {
 	const { _id } = req.user;
-	const { ownDictionarys } = await User.findById(_id).populate({
-		path: "ownDictionarys",
+	const { ownDictionaries } = await User.findById(_id).populate({
+		path: "ownDictionaries",
 		select: ["ownDictionaryName", "ownDictionaryTasks"],
 		populate: {
 			path: "ownDictionaryTasks",
@@ -12,12 +12,12 @@ const getOwnUDictionarys = async (req, res) => {
 		},
 	});
 
-	if (!ownDictionarys) {
+	if (!ownDictionaries) {
 		throw new ExpectationFailed(`Error working with database`);
 	}
 
 	res.status(200).json({
-		ownDictionarys,
+		ownDictionaries,
 	});
 };
-module.exports = getOwnUDictionarys;
+module.exports = getOwnUDictionaries;

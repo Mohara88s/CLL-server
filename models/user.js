@@ -44,7 +44,7 @@ const userSchema = Schema(
 			type: String,
 			required: [true, "Verify token is required"],
 		},
-		ownDictionarys: [
+		ownDictionaries: [
 			{ type: Schema.Types.ObjectId, 
 			ref: "OwnDictionary", 
       },

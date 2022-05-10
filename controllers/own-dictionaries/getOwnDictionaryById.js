@@ -3,13 +3,11 @@ const { NotFound } = require("http-errors");
 
 const getOwnDictionaryById = async (req, res) => {
 	const { dictionaryId } = req.params;
-	if (!dictionaryId) {
-		throw new BadRequest("Missing field dictionaryId");
-	}
-	const ownDictionary = await OwnDictionary.findById(dictionaryId).populate(
-		"ownDictionaryTasks",
-		["eng", "rus", "utrn", "qtrn"]
-	);
+
+	const ownDictionary = await OwnDictionary.findById(dictionaryId).populate({
+		path: "ownDictionaryTasks",
+		select: ["eng", "rus", "utrn", "qtrn"],
+	});
 
 	if (!ownDictionary) {
 		throw new NotFound(`Own dictionary with id=${dictionaryId} not found`);
