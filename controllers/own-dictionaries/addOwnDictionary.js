@@ -23,7 +23,11 @@ const addOwnDictionary = async (req, res, next) => {
 		ownDictionaryOwner: _id,
 	});
 	await newOwnDictionary.save();
-	const ownDictionary = await OwnDictionary.findById(newOwnDictionary._id);
+	const ownDictionary = await OwnDictionary.findById(newOwnDictionary._id).populate({
+		path: "ownDictionaryTasks",
+		select: ["eng", "rus", "utrn", "qtrn"],
+	});
+	
 	await User.findByIdAndUpdate(
 		_id,
 		{ $addToSet: { ownDictionaries: ownDictionary } },

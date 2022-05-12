@@ -16,12 +16,15 @@ const updateOwnDictionaryById = async (req, res) => {
 		dictionaryId,
 		req.body,
 		{ new: true }
-	);
+	).populate({
+		path: "ownDictionaryTasks",
+		select: ["eng", "rus", "utrn", "qtrn"],
+	});
 
 	if (!ownDictionary) {
 		throw new NotFound(`Own dictionary with id=${dictionaryId} not found`);
 	}
-
+	console.log(ownDictionary)
 	res.status(200).json({
 		ownDictionary,
 	});
