@@ -6,4 +6,6 @@ const router = express.Router()
 
 router.get('/', controllerWrapper(ctrl.getRandomSentencesTasks))
 
+router.get('/:jokeTaskId', controllerWrapper(ctrl.getSentencesTasksByJokeTaskId))
+
 module.exports = router
