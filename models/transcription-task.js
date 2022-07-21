@@ -9,11 +9,11 @@ const TranscriptionTaskSchema = Schema(
 		},
 		phtrn: {
 			type: String,
-			required: [true, "Set ph-transcription version of task"],
+			// required: [true, "Set ph-transcription version of task"],
 		},
 		phetrn: {
 			type: String,
-			required: [true, "Set ph+-transcription version of task"],
+			// required: [true, "Set ph+-transcription version of task"],
 		},
 		qtrn: {
 			type: String,
@@ -25,7 +25,7 @@ const TranscriptionTaskSchema = Schema(
 		},
 		rus: {
 			type: String,
-			required: [true, "Set rusian version of task"],
+			required: [true, "Set russian version of task"],
 		},
 	},
 	{ versionKey: false, timestamps: true }
@@ -35,8 +35,8 @@ const TranscriptionTask = model("TranscriptionTask", TranscriptionTaskSchema);
 
 const joiSchema = Joi.object({
 	eng: Joi.string().required(),
-	phtrn: Joi.string().required(),
-	phetrn: Joi.string().required(),
+	phtrn: Joi.string(),
+	phetrn: Joi.string(),
 	qtrn: Joi.string().required(),
 	utrn: Joi.string().required(),
 	rus: Joi.string().required(),
