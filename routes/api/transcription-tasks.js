@@ -12,8 +12,9 @@ const router = express.Router()
  *    type: object
  *    requaired:
  *     - eng
- *     - qtrn
+ *     - phtrn
  *     - utrn
+ *     - qtrn
  *     - rus
  *    properties:
  *     _id:
@@ -22,18 +23,22 @@ const router = express.Router()
  *     eng:
  *         type: string
  *         description: English version of task
- *     qtrn:
+ *     phtrn:
  *         type: string
- *         description: q-transcription version of task
+ *         description: ph-transcription version of task
  *     utrn:
  *         type: string
  *         description: u-transcription version of task
+ *     qtrn:
+ *         type: string
+ *         description: q-transcription version of task
  *     rus:
  *         type: string
  *         description: Russian version of task
  *    example: 
  *     _id: 6278cbbe274f3c3d65595677
  *     eng: azure
+ *     phtrn: "['xZq]"
  *     utrn: Qqe
  *     qtrn: aiqe
  *     rus: лазурь

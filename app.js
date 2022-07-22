@@ -17,9 +17,9 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Library API',
+      title: 'Cll-server API',
       version: '1.0.0',
-      description: 'Express Library API'
+      description: 'Express cll-server API'
     },
     // servers: [{ url: 'http://localhost:3000' }]
   },
