@@ -10,6 +10,7 @@ const JokeTaskSchema = Schema(
 		},
 		languages: [{ type: Schema.Types.ObjectId, ref: "Language", }],
 		translations: [{ type: Schema.Types.ObjectId, ref: "Joke", }],
+		creator:{ type: Schema.Types.ObjectId, ref: "User" },
 	},
 	{ versionKey: false, timestamps: true }
 );

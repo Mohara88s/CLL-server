@@ -7,10 +7,10 @@ const getAllJokeTasksLanguages = async (req, res, next) => {
     if (!languagesArray.length) {
         throw new NotFound("No languages found");
     }
-    const languages = languagesArray.map(language => language.language_name)
+    // const languages = languagesArray.map(language => language.language_name)
 
     res.status(200).json({
-        languages,
+        languages:languagesArray,
     });
 };
 

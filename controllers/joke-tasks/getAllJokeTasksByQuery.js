@@ -1,5 +1,4 @@
-const { JokeTask: Task } = require("../../models");
-const { Language } = require("../../models");
+const { JokeTask: Task, Language } = require("../../models");
 
 const { NotFound } = require("http-errors");
 
@@ -9,12 +8,13 @@ const getAllJokeTasksByQuery = async (req, res, next) => {
 	const originalLanguage = await Language.find({ "language_name": original_language })
 	const translationLanguage = await Language.find({ "language_name": translation_language })
 
-	const querySt = (originalLanguage.length && translationLanguage.length)
+	const querySt = 
+	(originalLanguage.length && translationLanguage.length)
 		? {
 			$and: [
 				{ "task_title": { $regex: `^${query}` } },
-				{ "languages.": `${originalLanguage[0]._id}` },
-				{ "languages.": `${translationLanguage[0]._id}` },
+				{ "languages": `${originalLanguage[0]._id}` },
+				{ "languages": `${translationLanguage[0]._id}` },
 			]
 		}
 		:

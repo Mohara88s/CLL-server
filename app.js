@@ -23,7 +23,8 @@ const options = {
     },
     // servers: [{ url: 'http://localhost:3000' }]
   },
-  apis: ['./routes/api/*.js']
+  // apis: ['./routes/api/*.js']
+  apis: ['./docs/api/*.js']
 }
 const specs = swaggerJsDoc(options)
 

@@ -9,6 +9,7 @@ const current = async (req, res) => {
   res.status(200).json({
     name: user.name,
     email: user.email,
+    subscription: user.subscription,
   });
 };
 module.exports = current;

@@ -19,8 +19,8 @@ const getSentencesTasksByJokeTaskId = async (req, res, next) => {
 	const querySt = {
 		$and: [
 			{ _id: jokeTaskId },
-			{ "languages.": `${originalLanguage[0]._id}` },
-			{ "languages.": `${translationLanguage[0]._id}` },
+			{ "languages": `${originalLanguage[0]._id}` },
+			{ "languages": `${translationLanguage[0]._id}` },
 		]
 	}
 

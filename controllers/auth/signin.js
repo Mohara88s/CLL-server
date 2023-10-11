@@ -23,6 +23,7 @@ const signin = async (req, res) => {
     user: {
       name: user.name,
       email,
+      subscription: user.subscription,
     },
     token,
   });

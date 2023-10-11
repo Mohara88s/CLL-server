@@ -6,13 +6,14 @@ const JokeSchema = Schema(
 		title: {
 			type: String,
 			required: [true, "Set title of joke in actual language"],
+			unique: true,
 		},
 		text: {
 			type: String,
 			required: [true, "Set text of joke in actual language"],
 		},
 		language: { type: Schema.Types.ObjectId, ref: "Language", },
-
+		creator:{ type: Schema.Types.ObjectId, ref: "User" },
 	},
 	{ versionKey: false, timestamps: true }
 );

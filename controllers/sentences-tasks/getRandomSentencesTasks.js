@@ -17,8 +17,8 @@ const getRandomSentencesTasks = async (req, res, next) => {
 
 	const querySt = {
 		$and: [
-			{ "languages.": `${originalLanguage[0]._id}` },
-			{ "languages.": `${translationLanguage[0]._id}` },
+			{ "languages": `${originalLanguage[0]._id}` },
+			{ "languages": `${translationLanguage[0]._id}` },
 		]
 	}
 
