@@ -16,6 +16,14 @@ const addJokeTask = async (req, res, next) => {
 	if (task) {
 		throw new Conflict("The joke title is already in use");
 	}
+	await Promise.all(translations.map(async (joke) => {
+		const language= await Language.findOne({
+			_id:joke.language._id,
+		})
+		if (!language) {
+			throw new Conflict("Use available languages");
+		}
+	}))
 	const languagesArr = []
 	const jokesArr = []
 	const jokes = await Promise.all(translations.map(async (joke) => {
@@ -30,6 +38,9 @@ const addJokeTask = async (req, res, next) => {
 
 		const newCreatedJoke = await Joke.findOne({
 			title: joke.title,
+			text: joke.text,
+			language: joke.language._id,
+			creator:_id,
 		})
 		languagesArr.push(newCreatedJoke.language)
 		jokesArr.push(newCreatedJoke._id)
