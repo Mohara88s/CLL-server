@@ -6,7 +6,6 @@ const JokeSchema = Schema(
 		title: {
 			type: String,
 			required: [true, "Set title of joke in actual language"],
-			unique: true,
 		},
 		text: {
 			type: String,
