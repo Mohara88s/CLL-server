@@ -10,8 +10,8 @@ router.get('/languages', controllerWrapper(ctrl.getAllJokeTasksLanguages))
 
 router.post('/', authenticate, controllerWrapper(ctrl.addJokeTask))
 
-// router.delete('/:taskId', authenticate, controllerWrapper(ctrl.removeJokeTaskById))
+router.delete('/:taskId', authenticate, controllerWrapper(ctrl.removeJokeTaskById))
 
-// router.put('/:taskId', authenticate, validation(joiSchema), controllerWrapper(ctrl.updateJokeTaskById))
+router.put('/:taskId', authenticate, controllerWrapper(ctrl.updateJokeTaskById))
 
 module.exports = router

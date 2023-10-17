@@ -1,8 +1,9 @@
 const { JokeTask, Joke, Language } = require("../../models");
-const { BadRequest, Conflict } = require("http-errors");
+const { BadRequest, Conflict, NotFound } = require("http-errors");
 
-const addJokeTask = async (req, res, next) => {
+const updateJokeTaskById = async (req, res, next) => {
 	const { _id } = req.user;
+	const { taskId } = req.params;
 	const { task_title, translations } = req.body;
 	if (!task_title) {
 		throw new BadRequest("The task title is required");
@@ -10,10 +11,15 @@ const addJokeTask = async (req, res, next) => {
 	if (!translations || translations.length < 2) {
 		throw new BadRequest("At least 2 translations are required");
 	}
-	const task = await JokeTask.findOne({
+	const task = await JokeTask.findById(taskId);
+	if (!task) {
+		throw new NotFound("According to the Id, no joke was found");
+	}
+	const taskByTitle = await JokeTask.findOne({
 		task_title: task_title,
 	});
-	if (task) {
+
+	if (`${task._id}` !== `${taskByTitle._id}`) {
 		throw new Conflict("The joke title is already in use");
 	}
 	await Promise.all(translations.map(async (joke) => {
@@ -24,6 +30,12 @@ const addJokeTask = async (req, res, next) => {
 			throw new Conflict("Use available languages");
 		}
 	}))
+
+	await Promise.all(task.translations.map(async (tr) => {
+		await Joke.findByIdAndDelete(tr._id)
+	}))
+	await JokeTask.findByIdAndDelete(taskId)
+
 	const languagesArr = []
 	const jokesArr = []
 	const jokes = await Promise.all(translations.map(async (joke) => {
@@ -63,9 +75,11 @@ const addJokeTask = async (req, res, next) => {
 			},
 		})
 
+
 	res.status(200).json({
+		_id: taskId,
 		jokeTask,
 	});
 };
 
-module.exports = addJokeTask;
+module.exports = updateJokeTaskById;

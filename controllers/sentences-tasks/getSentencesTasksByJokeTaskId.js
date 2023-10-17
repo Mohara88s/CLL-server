@@ -2,10 +2,10 @@ const { nanoid } = require('nanoid')
 const { JokeTask: Task } = require("../../models");
 const { Language } = require("../../models");
 
-const { BadRequest, NotFound } = require("http-errors");
+const { BadRequest, NotFound, NotAcceptable } = require("http-errors");
 
 const getSentencesTasksByJokeTaskId = async (req, res, next) => {
-	const { original_language, translation_language } = req.query;
+	const { original_language, translation_language, random = false } = req.query;
 	const { jokeTaskId } = req.params;
 	if (!original_language) {
 		throw new BadRequest("The original language is required");
@@ -40,36 +40,39 @@ const getSentencesTasksByJokeTaskId = async (req, res, next) => {
 
 	const tasks = jokeTasks
 		.map(task => {
-			const id = task._id
+			const _id = task._id
 			const original = task.translations
 				.find(translation => translation.language.language_name === original_language).text
 			const translation = task.translations
 				.find(translation => translation.language.language_name === translation_language).text
-			return { id, original, translation }
+			return { _id, original, translation }
 		})
 		.map(e => {
 			const array = []
 			const originalArr = e.original.match(/[^.?!]+[.!?]+[\])'"`’”]*|.+/g);
 			const translationArr = e.translation.match(/[^.?!]+[.!?]+[\])'"`’”]*|.+/g);
-			if (originalArr.length === translationArr.length) {
-				originalArr.map((elem, id) => {
-					// if (elem.length > 30)
-					// {
-						const element = {
-						id: nanoid(),
-						original: elem,
-						translation: translationArr[id],
-					}
-					array.push(element)}
-				// }
-				)
+			if (originalArr.length !== translationArr.length) { throw new NotAcceptable("This task isn't available because translations have different lengths. Ask an administrator to fix this issue."); }
+			originalArr.map((elem, id) => {
+				// if (elem.length > 30)
+				// {
+				const element = {
+					_id: nanoid(),
+					original: elem,
+					translation: translationArr[id],
+				}
+				array.push(element)
 			}
+				// }
+			)
 			return [...array]
 		})
 		.flat()
-		.sort(() => {
+	if (random) {
+		tasks.sort(() => {
 			return 0.5 - Math.random();
 		})
+	}
+
 
 	res.status(200).json({
 		tasks,
