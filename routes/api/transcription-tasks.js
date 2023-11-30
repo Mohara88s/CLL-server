@@ -6,6 +6,8 @@ const router = express.Router()
 
 router.get('/', controllerWrapper(ctrl.getAllTranscriptionTasksByQuery))
 
+router.get('/random', controllerWrapper(ctrl.getRandomTranscriptionTask))
+
 
 
 // router.get('/trn-to-utrn', controllerWrapper(ctrl.getTrnToUtrnTransformer))
