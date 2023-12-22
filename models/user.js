@@ -44,6 +44,10 @@ const userSchema = Schema(
 			type: String,
 			required: [true, "Verify token is required"],
 		},
+		passwordResetToken: {
+			type: String,
+			default: null,
+		},
 		ownDictionaries: [
 			{ type: Schema.Types.ObjectId, 
 			ref: "OwnDictionary", 

@@ -24,7 +24,6 @@ const updateOwnDictionaryById = async (req, res) => {
 	if (!ownDictionary) {
 		throw new NotFound(`Own dictionary with id=${dictionaryId} not found`);
 	}
-	console.log(ownDictionary)
 	res.status(200).json({
 		ownDictionary,
 	});

@@ -4,7 +4,7 @@ const { createIntlSegmenterPolyfill } = require('intl-segmenter-polyfill')
 const fs = require('fs')
 const wasmBuffer = fs.readFileSync('node_modules/intl-segmenter-polyfill/dist/break_iterator.wasm')
 let wasmBinary = new Uint8Array(wasmBuffer)
-const transcriptionTypes = ['U-transcription', 'Q-transcription'];
+const transcriptionTypes = ['U-transcription'];
 
 const transcriptText = async (req, res) => {
 	const { englishText, transcriptionType } = req.body;
@@ -18,9 +18,6 @@ const transcriptText = async (req, res) => {
 	switch (transcriptionType) {
 		case transcriptionTypes[0]:
 			transcriptionAdres.adres = 'utrn'
-			break;
-		case transcriptionTypes[1]:
-			transcriptionAdres.adres = 'qtrn'
 			break;
 		default:
 			throw new BadRequest("Transcription type not found");

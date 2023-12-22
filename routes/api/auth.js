@@ -11,4 +11,8 @@ router.post('/signin', validation(signinJoiSchema), controllerWrapper(ctrl.signi
 
 router.get('/signout', authenticate, controllerWrapper(ctrl.signout))
 
+router.post('/password-reset', controllerWrapper(ctrl.passwordResetApplication))
+
+router.put('/password-change/:token', controllerWrapper(ctrl.passwordChange))
+
 module.exports = router

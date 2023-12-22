@@ -12,7 +12,7 @@ const emailVerification = async (req, res) => {
     verificationToken: null,
   });
   res.status(200).json({
-    data: "Email verification successful",
+    data: "Email verification is successful",
   });
 };
 
